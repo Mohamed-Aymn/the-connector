@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { useTranslations } from 'next-intl'
 import React from 'react'
 
-function Hero() {
+function HeroSection() {
   const t = useTranslations("Home.hero")
   const contentClassName = "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center"
   return (
@@ -48,4 +48,4 @@ function Hero() {
   )
 }
 
-export default Hero
+export default HeroSection
