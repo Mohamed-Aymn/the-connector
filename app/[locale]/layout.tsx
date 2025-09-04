@@ -6,8 +6,8 @@ import { notFound } from "next/navigation";
 import { routing } from "../../i18n/routing";
 import { Toaster } from "sonner";
 import Nav from "@/components/shared/layout/nav";
-import Footer from "@/components/shared/layout/footer";
 import Whatsapp from "@/components/shared/layout/whatsapp";
+import Footer from "@/components/shared/layout/footer";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -41,7 +41,7 @@ export default async function LocaleLayout({
           <Nav />
           <main className="space-y-[120px]">{children}</main>
           <Whatsapp mobileNumber={"966533746410"} />
-          {/* <Footer /> */}
+          <Footer />
           <Toaster closeButton richColors position="bottom-center" />
         </NextIntlClientProvider>
       </body>
