@@ -121,3 +121,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+.card {
+  --x: 0;
+  --y: 0;
+  background-image: radial-gradient(circle at var(--x) var(--y), #4A90E2 0%, transparent 100%);
+  transition: background-image 0.3s ease;
+}
+
+.card:hover {
+  background-image: radial-gradient(circle at var(--x) var(--y), #4A90E2 0%, #1a202c 100%);
+  /* The second color should be your original card background color */
+}

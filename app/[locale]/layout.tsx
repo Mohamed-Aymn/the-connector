@@ -8,6 +8,8 @@ import { Toaster } from "sonner";
 import Nav from "@/components/shared/layout/nav";
 import Whatsapp from "@/components/shared/layout/whatsapp";
 import Footer from "@/components/shared/layout/footer";
+import CustomCursor from "@/components/shared/lib/customCursor";
+import { CursorProvider } from "@/context/cursorContext";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -38,11 +40,13 @@ export default async function LocaleLayout({
     <html lang={locale} dir={direction} suppressHydrationWarning>
       <body className={`${roboto.className} antialiased min-h-screen flex flex-col`}>
         <NextIntlClientProvider>
-          <Nav />
-          <main className="space-y-[120px]">{children}</main>
-          <Whatsapp mobileNumber={"966533746410"} />
-          <Footer />
-          <Toaster closeButton richColors position="bottom-center" />
+          <CursorProvider>
+            <Nav />
+            <main className="space-y-[120px]">{children}</main>
+            <Whatsapp mobileNumber={"966533746410"} />
+            <Footer />
+            <Toaster closeButton richColors position="bottom-center" />
+          </CursorProvider>
         </NextIntlClientProvider>
       </body>
     </html>
