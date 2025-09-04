@@ -1,10 +1,6 @@
 import Section from '@/components/shared/layout/section'
 import Description from '@/components/shared/typography/description'
 import Heading from '@/components/shared/typography/heading'
-import SpotlightCard from '@/components/SpotlightCard'
-import { Button } from '@/components/ui/button'
-import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { SpeakerIcon } from 'lucide-react'
 import React from 'react'
 
 function AboutSection() {
@@ -14,7 +10,7 @@ function AboutSection() {
         className='text-primary'
         size='md'
       >
-        About
+        About Us
       </Heading>
 
       <Description size={'md'}>
