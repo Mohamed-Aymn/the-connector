@@ -1,18 +1,18 @@
+import React from 'react'
 import Section from '@/components/shared/layout/section'
-import Heading from '@/components/shared/typography/heading'
+import { SpeakerIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardAction, CardContent, CardHeader } from '@/components/ui/card'
-import { SpeakerIcon } from 'lucide-react'
-import React from 'react'
+import Heading from '@/components/shared/typography/heading'
 
-function ServicesSection() {
+function ValuesSection() {
   return (
     <Section type='outer'>
       <Heading
         className='text-primary'
         size='md'
       >
-        Our Services
+        Our Values
       </Heading>
 
       <div className='grid grid-cols-2'>
@@ -66,4 +66,4 @@ function ServicesSection() {
   )
 }
 
-export default ServicesSection
+export default ValuesSection

@@ -1,6 +1,7 @@
 import Section from '@/components/shared/layout/section'
 import Heading from '@/components/shared/typography/heading'
 import React from 'react'
+import NumbersCountUp from '@/components/shared/lib/numbersCountUp'
 
 
 function ClientsSection() {
@@ -12,6 +13,8 @@ function ClientsSection() {
       >
         Clients Who Trusted Us
       </Heading>
+
+      <NumbersCountUp />
 
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
 

@@ -15,7 +15,6 @@ function Nav() {
 
       <ul className='text-primary flex gap-4'>
         <li>Home</li>
-        <li>About</li>
         <li>Services</li>
         <li>Portfolio</li>
         <li>Contact us</li>
