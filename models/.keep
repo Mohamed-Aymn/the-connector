@@ -1,0 +1,4 @@
+export interface example {
+  title: string;
+  image: File | string;
+}
