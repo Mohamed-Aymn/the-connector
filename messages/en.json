@@ -7,6 +7,15 @@
     "hero": {
       "title": "Business Development as a Service",
       "button": "Contact us!"
+    },
+    "about": {
+      "title": "About Us",
+      "description1": [
+        "Welcome to",
+        "The Connector Consultancy",
+        "the premier business consulting firm dedicated to fostering growth and success in the Middle East and North Africa (MENA) region."
+      ],
+      "description2": "  With a team of experienced professionals and an extensive network of industry connections, we are committed to providing tailored solutions that empower businesses to thrive in this dynamic economic landscape."
     }
   }
 }

@@ -13,7 +13,7 @@ function Description({ size, className, children }: DescriptionProps) {
     <p
       className={cn(
         `
-          text-ternary
+          text-muted-foreground
           ${size === "sm"
           ? "text-[14px] font-[400]"
           : size === "md"
