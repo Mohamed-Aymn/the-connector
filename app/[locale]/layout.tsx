@@ -38,7 +38,7 @@ export default async function LocaleLayout({
     <html lang={locale} dir={direction} suppressHydrationWarning>
       <body className={`${roboto.className} antialiased min-h-screen flex flex-col`}>
         <NextIntlClientProvider>
-          {/* <Nav /> */}
+          <Nav />
           <main className="space-y-[120px]">{children}</main>
           <Whatsapp mobileNumber={"966533746410"} />
           {/* <Footer /> */}
