@@ -5,9 +5,9 @@ function Page() {
   return (
     <>
       <HeroSection
-        title="About Us"
+        title="Soft Landing"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem, sit rem mollitia qui quos corporis odit numquam nam earum sapiente rerum obcaecati"
-        mood="shared"
+        mood="service2"
       />
     </>
   )
