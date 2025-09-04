@@ -5,7 +5,8 @@
   },
   "Home": {
     "hero": {
-      "title": "Business Development as a Service"
+      "title": "Business Development as a Service",
+      "button": "Contact us!"
     }
   }
 }
