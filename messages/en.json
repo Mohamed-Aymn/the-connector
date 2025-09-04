@@ -4,11 +4,11 @@
     "button": "Go back to the home page"
   },
   "Home": {
-    "hero": {
+    "HeroSection": {
       "title": "Business Development as a Service",
       "button": "Contact us!"
     },
-    "about": {
+    "AboutSection": {
       "title": "About Us",
       "description1": [
         "Welcome to",
@@ -16,6 +16,23 @@
         "the premier business consulting firm dedicated to fostering growth and success in the Middle East and North Africa (MENA) region."
       ],
       "description2": "  With a team of experienced professionals and an extensive network of industry connections, we are committed to providing tailored solutions that empower businesses to thrive in this dynamic economic landscape."
+    },
+    "OurServicesSection": {
+      "title": "Our Services",
+      "items": [
+        {
+          "title": "Staff Augmentation",
+          "description": "We provide flexible, pre-vetted talent to help you scale quickly—meeting project demands without the overhead of permanent hires."
+        },
+        {
+          "title": "Soft Landing Across (MENA)",
+          "description": "We help international businesses enter and grow in the Middle East and North Africa, providing market entry strategies, legal setup, partnerships, and regulatory guidance."
+        },
+        {
+          "title": "Buliding Brands & Digital Presence",
+          "description": "We build cohesive brand identities with logo design, guidelines, websites, and social media—plus sales kits and strategies to help you stand out."
+        }
+      ]
     }
   }
 }

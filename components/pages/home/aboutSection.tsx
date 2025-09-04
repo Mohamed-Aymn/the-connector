@@ -2,11 +2,12 @@ import React from "react"
 import Heading from "@/components/shared/typography/heading"
 import Description from "@/components/shared/typography/description"
 import { useTranslations } from "next-intl"
+import Section from "@/components/shared/layout/section"
 
 function AboutSection() {
-  const t = useTranslations("Home.about")
+  const t = useTranslations("Home.AboutSection")
   return (
-    <section className="py-16 px-6 md:px-12 lg:px-24 bg-muted/30">
+    <Section type="outer">
       <div className="max-w-4xl mx-auto">
         <Heading
           level={2}
@@ -25,7 +26,7 @@ function AboutSection() {
           <Description size="md">{t("description2")}</Description>
         </div>
       </div>
-    </section>
+    </Section>
   )
 }
 
