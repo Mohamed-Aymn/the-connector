@@ -2,5 +2,10 @@
   "NotFoundPage": {
     "title": "Sorry, this page could not be found.",
     "button": "Go back to the home page"
+  },
+  "Home": {
+    "hero": {
+      "title": "Business Development as a Service"
+    }
   }
 }
