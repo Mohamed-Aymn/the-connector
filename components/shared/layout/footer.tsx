@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 import Image from "next/image"
 import {
@@ -7,61 +6,42 @@ import {
   FooterColumn,
   FooterContent,
 } from "@/components/ui/footer";
+import { getTranslations } from "next-intl/server";
 
-interface FooterLink {
-  text: string;
-  href: string;
-}
-interface FooterColumnProps {
-  title: string;
-  links: FooterLink[];
-  mood: "service1" | "service2" | "general";
-}
-interface FooterProps {
-  logo?: ReactNode;
-  name?: string;
-  columns?: FooterColumnProps[];
-  copyright?: string;
-  policies?: FooterLink[];
-  showModeToggle?: boolean;
-  className?: string;
-}
-
-export default function Footer({
-  columns = [
+export default async function Footer() {
+  const t = await getTranslations("Footer")
+  const columns = [
     {
-      title: "Building Brands & Software Engineering",
+      title: t("columns.0.title"),
       links: [
-        { text: "Software Engineering Services", href: "/services/software-engineering" },
-        { text: "Building Brands Services", href: "/services/buliding-brands" },
-        { text: "Portfolio", href: "/portfolio/building-brands" },
+        { text: t("columns.0.items.0"), href: "/services/software-engineering" },
+        { text: t("columns.0.items.1"), href: "/services/buliding-brands" },
+        { text: t("columns.0.items.2"), href: "/portfolio/building-brands" },
       ],
       mood: "service1",
     },
     {
-      title: "Staff Augmentation & Soft Landing",
+      title: t("columns.1.title"),
       links: [
-        { text: "Staff Augmentation Service", href: "/services/staff-augmentation" },
-        { text: "Soft Landing Service", href: "/services/soft-landing" },
-        { text: "Portfolio", href: "/portfolio/staff-augmentation-and-soft-landing" },
+        { text: t("columns.1.items.0"), href: "/services/staff-augmentation" },
+        { text: t("columns.1.items.1"), href: "/services/soft-landing" },
+        { text: t("columns.1.items.2"), href: "/portfolio/staff-augmentation-and-soft-landing" },
       ],
       mood: "service2",
     },
     {
-      title: "Contact",
+      title: t("columns.2.title"),
       links: [
-        { text: "Contact us Page", href: "/contact" },
-        { text: "Facebook", href: "#" },
-        { text: "Linkedin", href: "#" },
+        { text: t("columns.2.items.0"), href: "/contact" },
+        { text: t("columns.2.items.1"), href: "#" },
+        { text: t("columns.2.items.2"), href: "#" },
       ],
       mood: "general",
     },
-  ],
-  copyright = "© 2025 The Connector. All rights reserved",
-  className,
-}: FooterProps) {
+  ]
+
   return (
-    <footer className={cn("bg-background w-full px-8 mt-38", className)}>
+    <footer className={cn("bg-background w-full px-8 mt-38")}>
       <div className="max-w-container mx-auto">
         <FooterComponent>
           <FooterContent className="flex justify-between items-start">
@@ -107,7 +87,7 @@ export default function Footer({
             </div>
           </FooterContent>
           <FooterBottom className="flex justify-center items-center">
-            <div>{copyright}</div>
+            <div>{t("copyright")}</div>
           </FooterBottom>
         </FooterComponent>
       </div>

@@ -287,5 +287,34 @@
       }
     },
     "staffAugmentationAndSoftLanding": {}
+  },
+  "Footer": {
+    "columns": [
+      {
+        "title": "Building Brands & Software Engineering",
+        "items": [
+          "Software Engineering Services",
+          "Building Brands Services",
+          "Portfolio"
+        ]
+      },
+      {
+        "title": "Staff Augmentation & Soft Landing",
+        "items": [
+          "Staff Augmentation Service",
+          "Soft Landing Service",
+          "Portfolio"
+        ]
+      },
+      {
+        "title": "Contact",
+        "items": [
+          "Contact us Page",
+          "Facebook",
+          "Linkedin"
+        ]
+      }
+    ],
+    "copyright": "© 2025 The Connector. All rights reserved"
   }
 }
