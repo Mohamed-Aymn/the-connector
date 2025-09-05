@@ -1,8 +1,6 @@
 import Section from '@/components/shared/layout/section'
 import Heading from '@/components/shared/typography/heading'
 import React from 'react'
-import NumbersCountUp from '@/components/shared/lib/numbersCountUp'
-
 
 function ClientsSection() {
   return (
