@@ -75,6 +75,15 @@
     }
   },
   "Services": {
+    "SoftLanding": {
+      "title": "Soft Landing Across (MENA)",
+      "description": "This service provides comprehensive support for international businesses seeking to establish and expand their presence across Middle Eastern and North African markets.",
+      "secondaryDescription": [
+        "This specialized service offers a strategic entry point by navigating the complex regulatory landscapes, diverse cultural nuances, and unique business ecosystems of countries Especially the GCC and North Africa Region.",
+        "Service providers assist with essential elements including market entry strategy, legal entity formation, local partnership development, officespace procurement, and regulatory compliance across different MENA jurisdictions.",
+        "Connecting you with MENA business hubs and stakeholders."
+      ]
+    },
     "SoftwareEngineering": {
       "title": "Software Engineering",
       "description": "This comprehensive service encompasses everything from foundational brand identity creation - including distinctive logo design, cohesive visual elements, and detailed brand guidelines - to full-scale digital presence development through custom, SEO-optimized websites and strategic social media management across key platforms.",

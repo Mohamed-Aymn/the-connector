@@ -1,8 +1,5 @@
 import { ReactNode } from "react";
-
 import { cn } from "@/lib/utils";
-
-import LaunchUI from "@/components/logos/launch-ui";
 import Image from "next/image"
 import {
   Footer as FooterComponent,
@@ -15,12 +12,11 @@ interface FooterLink {
   text: string;
   href: string;
 }
-
 interface FooterColumnProps {
   title: string;
   links: FooterLink[];
+  mood: "service1" | "service2" | "general";
 }
-
 interface FooterProps {
   logo?: ReactNode;
   name?: string;
@@ -32,7 +28,6 @@ interface FooterProps {
 }
 
 export default function Footer({
-  name = "Launch UI",
   columns = [
     {
       title: "Building Brands & Software Engineering",
@@ -41,6 +36,7 @@ export default function Footer({
         { text: "Building Brands Services", href: "/services/buliding-brands" },
         { text: "Portfolio", href: "/portfolio/building-brands" },
       ],
+      mood: "service1",
     },
     {
       title: "Staff Augmentation & Soft Landing",
@@ -49,6 +45,7 @@ export default function Footer({
         { text: "Soft Landing Service", href: "/services/soft-landing" },
         { text: "Portfolio", href: "/portfolio/staff-augmentation-and-soft-landing" },
       ],
+      mood: "service2",
     },
     {
       title: "Contact",
@@ -57,14 +54,14 @@ export default function Footer({
         { text: "Facebook", href: "#" },
         { text: "Linkedin", href: "#" },
       ],
+      mood: "general",
     },
   ],
   copyright = "© 2025 The Connector. All rights reserved",
-
   className,
 }: FooterProps) {
   return (
-    <footer className={cn("bg-background w-full px-8", className)}>
+    <footer className={cn("bg-background w-full px-8 mt-38", className)}>
       <div className="max-w-container mx-auto">
         <FooterComponent>
           <FooterContent className="flex justify-between items-start">
@@ -84,7 +81,14 @@ export default function Footer({
             <div className="flex gap-8">
               {columns.map((column, index) => (
                 <FooterColumn key={index}>
-                  <h3 className="text-md pt-1 font-semibold text-right break-words">
+                  <h3 className={`text-md pt-1 font-semibold text-right break-words
+                  ${column.mood === "service1" ?
+                      "text-secondary bg-primary p-1" :
+                      column.mood === "service2" ?
+                        "text-primary bg-secondary p-1"
+                        : ""}
+                    
+                    `}>
                     {column.title}
                   </h3>
                   <div className="flex flex-col items-end"> {/* 👈 align links to right */}

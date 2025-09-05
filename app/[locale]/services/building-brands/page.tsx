@@ -17,7 +17,7 @@ function Page() {
         mood="service1"
       />
 
-      <div className='flex flex-col gap-4 text-center'>
+      <div className='flex flex-col gap-4 text-center max-w-4xl mx-auto'>
         <Description size={'md'}>
           {t("secondaryDescription.0")}
         </Description>
