@@ -28,7 +28,7 @@ export default function CustomCursor({ cursorType }: { cursorType: CursorType })
         ${cursorType === "type2" ? "w-8 h-8 border-2 border-primary" : ""}
       `}
       initial={{
-        x: position.x - 16, // start at mouse
+        x: position.x - 16,
         y: position.y - 16,
         scale: 0,
       }}

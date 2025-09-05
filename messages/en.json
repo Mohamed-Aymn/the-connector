@@ -33,6 +33,31 @@
           "description": "We build cohesive brand identities with logo design, guidelines, websites, and social media—plus sales kits and strategies to help you stand out."
         }
       ]
+    },
+    "OurValuesSection": {
+      "title": "Our Values",
+      "items": [
+        {
+          "title": "EFFICIENCY",
+          "description": "We optimize business processes to deliver rapid, precise, and cost-effective consultancy services tailored to your needs."
+        },
+        {
+          "title": "EMPOWERMENT",
+          "description": "We equip organizations with the tools and strategies necessary to empower their teams, enhance their capabilities, and expand their influence."
+        },
+        {
+          "title": "CREATIVITY",
+          "description": "We foster innovative thinking and original solutions that inspire and engage stakeholders, driving your business forward."
+        },
+        {
+          "title": "CONSISTENCY",
+          "description": "We ensure a uniform, high-quality experience across all projects, regardless of location so that you can trust our expertise every time."
+        },
+        {
+          "title": "CULTURAL GROWTH",
+          "description": "We champion the development of diverse voices in the business landscape, promoting growth and representation within the MENA region and beyond."
+        }
+      ]
     }
   }
 }

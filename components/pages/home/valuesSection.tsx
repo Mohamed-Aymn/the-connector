@@ -1,66 +1,54 @@
+'use client'
+
 import React from 'react'
 import Section from '@/components/shared/layout/section'
-import { SpeakerIcon } from 'lucide-react'
+import { ChartColumnIncreasing, HandFist, Lightbulb, Repeat, SpeakerIcon, UsersRound } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardAction, CardContent, CardHeader } from '@/components/ui/card'
 import Heading from '@/components/shared/typography/heading'
+import { useTranslations } from 'next-intl'
+
+type ValueItem = {
+  title: string
+  description: string
+  icon: React.ComponentType<{ className?: string }>
+}
 
 function ValuesSection() {
+  const t = useTranslations("Home.OurValuesSection")
+  // get array from JSON
+  const items = t.raw("items") as { title: string; description: string }[]
+  // preprocessing
+  const itemsWithIcons: ValueItem[] = items.map((item, index) => ({
+    ...item,
+    icon: [ChartColumnIncreasing, HandFist, Lightbulb, Repeat, UsersRound][index],
+  }))
+
+
   return (
-    <Section type='outer'>
-      <Heading
-        className='text-primary'
-        size='md'
-      >
-        Our Values
+    <Section type="outer">
+      <Heading className="text-primary mb-6" size="md">
+        {t("title")}
       </Heading>
 
-      <div className='grid grid-cols-2'>
-        <Card className="w-full max-w-sm">
-          <CardHeader>
-            <Heading size={'sm'} className='text-left'>
-              Login to your account
-            </Heading>
-            <CardAction>
-              <Button variant="link">
-                <SpeakerIcon />
-              </Button>
-            </CardAction>
-          </CardHeader>
-          <CardContent>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem earum, ex vel et iusto veniam consectetur ipsam cum assumenda, fugiat eveniet facere suscipit praesentium numquam ad aperiam omnis ullam?
-          </CardContent>
-        </Card>
-        <Card className="w-full max-w-sm">
-          <CardHeader>
-            <Heading size={'sm'} className='text-left'>
-              Login to your account
-            </Heading>
-            <CardAction>
-              <Button variant="link">
-                <SpeakerIcon />
-              </Button>
-            </CardAction>
-          </CardHeader>
-          <CardContent>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem earum, ex vel et iusto veniam consectetur ipsam cum assumenda, fugiat eveniet facere suscipit praesentium numquam ad aperiam omnis ullam?
-          </CardContent>
-        </Card>
-        <Card className="w-full max-w-sm">
-          <CardHeader>
-            <Heading size={'sm'} className='text-left'>
-              Login to your account
-            </Heading>
-            <CardAction>
-              <Button variant="link">
-                <SpeakerIcon />
-              </Button>
-            </CardAction>
-          </CardHeader>
-          <CardContent>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem earum, ex vel et iusto veniam consectetur ipsam cum assumenda, fugiat eveniet facere suscipit praesentium numquam ad aperiam omnis ullam?
-          </CardContent>
-        </Card>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {itemsWithIcons.map((item, index) => (
+          <Card key={index} className="w-full">
+            <CardHeader>
+              <Heading size="sm" className="text-left">
+                {item.title}
+              </Heading>
+              <CardAction className='w-18 h-18'>
+                <Button className='w-full h-full' variant="link">
+                  {React.createElement(item.icon, { className: "w-full h-full size-full" })}
+                </Button>
+              </CardAction>
+            </CardHeader>
+            <CardContent>
+              {item.description}
+            </CardContent>
+          </Card>
+        ))}
       </div>
     </Section>
   )
