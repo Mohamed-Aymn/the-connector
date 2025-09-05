@@ -15,7 +15,21 @@
         "The Connector Consultancy",
         "the premier business consulting firm dedicated to fostering growth and success in the Middle East and North Africa (MENA) region."
       ],
-      "description2": "  With a team of experienced professionals and an extensive network of industry connections, we are committed to providing tailored solutions that empower businesses to thrive in this dynamic economic landscape."
+      "description2": "  With a team of experienced professionals and an extensive network of industry connections, we are committed to providing tailored solutions that empower businesses to thrive in this dynamic economic landscape.",
+      "numbers": [
+        {
+          "title": "Clients surveyed",
+          "number": 25
+        },
+        {
+          "title": "Countries of Operation",
+          "number": 5
+        },
+        {
+          "title": "successful projects",
+          "number": 40
+        }
+      ]
     },
     "OurServicesSection": {
       "title": "Our Services",

@@ -14,7 +14,7 @@ function Heading({ size, level = 1, children, className }: HeadingProps) {
       className={`
       uppercase text-center
       ${size === "sm"
-          ? "text-[32px] font-[600]"
+          ? "text-[31px] font-[600]"
           : size === "md"
             ? "text-[40px] font-[600]"
             : "text-[64px] font-[700]"

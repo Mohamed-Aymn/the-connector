@@ -3,6 +3,7 @@ import Heading from "@/components/shared/typography/heading"
 import Description from "@/components/shared/typography/description"
 import { useTranslations } from "next-intl"
 import Section from "@/components/shared/layout/section"
+import NumbersCountUp from "@/components/shared/lib/numbersCountUp"
 
 function AboutSection() {
   const t = useTranslations("Home.AboutSection")
@@ -24,6 +25,10 @@ function AboutSection() {
             {t("description1.2")}
           </Description>
           <Description size="md">{t("description2")}</Description>
+        </div>
+
+        <div className="mt-10 flex justify-center items-center">
+          <NumbersCountUp />
         </div>
       </div>
     </Section>
