@@ -1,3 +1,5 @@
+"use client"
+
 import FormAbstraction, { FieldMeta } from '@/components/shared/form/formAbstraction'
 import { zodResolver } from '@hookform/resolvers/zod'
 import React from 'react'

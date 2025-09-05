@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import NavButtons from './navButtons'
 
 function Nav() {
   return (
@@ -13,12 +14,13 @@ function Nav() {
         />
       </div>
 
-      <ul className='text-primary flex gap-4'>
+      <NavButtons />
+      {/* <ul className='text-primary flex gap-4'>
         <li>Home</li>
         <li>Services</li>
         <li>Portfolio</li>
         <li>Contact us</li>
-      </ul>
+      </ul> */}
     </div>
   )
 }

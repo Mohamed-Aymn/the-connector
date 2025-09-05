@@ -353,5 +353,29 @@
       }
     ],
     "copyright": "© 2025 The Connector. All rights reserved"
-  }
+  },
+  "Nav": [
+    {
+      "title": "Home"
+    },
+    {
+      "title": "Services",
+      "subitems": [
+        "building brands",
+        "software engineering",
+        "Staff Augmentation",
+        "soft landing"
+      ]
+    },
+    {
+      "title": "portfolio",
+      "subitems": [
+        "building brands and software engineering",
+        "Staff Augmentation and soft landing"
+      ]
+    },
+    {
+      "title": "Contact us"
+    }
+  ]
 }
