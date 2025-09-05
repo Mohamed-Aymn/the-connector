@@ -1,6 +1,7 @@
 import Section from '@/components/shared/layout/section'
 import Heading from '@/components/shared/typography/heading'
 import { Button } from '@/components/ui/button'
+import { Link } from '@/i18n/navigation'
 import React from 'react'
 
 function CtaSection() {
@@ -10,9 +11,11 @@ function CtaSection() {
         Contact Us
       </Heading>
       <div className="w-full flex justify-center items-center mt-8">
-        <Button size={'lg'}>
-          Contact Us!
-        </Button>
+        <Link href={'/contact'}>
+          <Button size={'lg'}>
+            Contact Us!
+          </Button>
+        </Link>
       </div>
     </Section>
   )

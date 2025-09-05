@@ -29,7 +29,7 @@ function StyledSelect<T extends Record<string, any>>({
         <select
           id={String(name)}
           aria-label={ariaLabel || String(name)}
-          className={`${className || ""} p-2 w-full placeholder-grey-dark outline-none bg-black `}
+          className={`${className || ""} p-2 w-full placeholder-grey-dark outline-none`}
           {...register(name)}
           defaultValue=""
         >

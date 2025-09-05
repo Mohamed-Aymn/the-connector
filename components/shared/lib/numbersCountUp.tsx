@@ -40,7 +40,7 @@ function NumbersCountUp() {
                 to={item.number}
                 separator=","
                 direction="up"
-                duration={1.5}
+                duration={1}
                 className="count-up-text"
               />
               <span>+</span>

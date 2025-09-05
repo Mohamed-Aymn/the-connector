@@ -25,7 +25,7 @@ interface TextMeta extends BaseMeta {
 }
 
 interface TextAreaMeta extends BaseMeta {
-  type: "text" | "number" | "email" | "password" | "textarea";
+  type: "textarea";
 }
 
 interface FileMeta extends BaseMeta {

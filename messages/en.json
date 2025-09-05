@@ -262,8 +262,68 @@
           "title": "Venttat",
           "Meta": {
             "title": "Venttat - Building Brands & Digital Presence",
+            "description": "Events and resources booking system."
+          },
+          "description": "A comprehensive platform for booking events and managing resources, designed to streamline scheduling and improve user experience.",
+          "tags": [
+            "UI/UX Design",
+            "Web Development",
+            "Systems Development"
+          ],
+          "body": {
+            "What": [
+              "Venttat is a web-based platform that allows users to browse, book, and manage events and resources seamlessly.",
+              "It offers an intuitive interface for both administrators and users to track bookings, availability, and payments.",
+              "The system integrates calendar management, notifications, and reporting tools to simplify event organization."
+            ],
+            "Why": [
+              "Organizations and individuals often struggle with managing multiple events and resources efficiently.",
+              "Manual tracking and fragmented tools can lead to double bookings and miscommunication.",
+              "Venttat centralizes the booking process, reduces administrative overhead, and enhances user satisfaction."
+            ],
+            "How": [
+              "Users can search for available events and resources using filters like date, location, or category.",
+              "Administrators can set availability, approve bookings, and generate reports on usage and engagement.",
+              "The system leverages secure payment gateways, automated reminders, and a responsive design for all devices."
+            ]
+          }
+        },
+        "amoramor": {
+          "title": "Amoramor",
+          "Meta": {
+            "title": "Amoramor - Building Brands & Digital Presence",
+            "description": "Events and resources booking system."
+          },
+          "description": "A comprehensive platform for booking events and managing resources, designed to streamline scheduling and improve user experience.",
+          "tags": [
+            "UI/UX Design",
+            "Web Development",
+            "Systems Development"
+          ],
+          "body": {
+            "What": [
+              "Venttat is a web-based platform that allows users to browse, book, and manage events and resources seamlessly.",
+              "It offers an intuitive interface for both administrators and users to track bookings, availability, and payments.",
+              "The system integrates calendar management, notifications, and reporting tools to simplify event organization."
+            ],
+            "Why": [
+              "Organizations and individuals often struggle with managing multiple events and resources efficiently.",
+              "Manual tracking and fragmented tools can lead to double bookings and miscommunication.",
+              "Venttat centralizes the booking process, reduces administrative overhead, and enhances user satisfaction."
+            ],
+            "How": [
+              "Users can search for available events and resources using filters like date, location, or category.",
+              "Administrators can set availability, approve bookings, and generate reports on usage and engagement.",
+              "The system leverages secure payment gateways, automated reminders, and a responsive design for all devices."
+            ]
+          }
+        },
+        "mukammel": {
+          "Meta": {
+            "title": "Mukammel - Building Brands & Digital Presence",
             "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
           },
+          "title": "Mukammel",
           "description": "lorem",
           "tags": [
             "UI/UX Design",
@@ -287,7 +347,123 @@
             ]
           }
         },
-        "mukammel": {
+        "podmedianetwork": {
+          "Meta": {
+            "title": "Mukammel - Building Brands & Digital Presence",
+            "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
+          },
+          "title": "Mukammel",
+          "description": "lorem",
+          "tags": [
+            "UI/UX Design",
+            "Web Developmnet"
+          ],
+          "body": {
+            "What": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ],
+            "Why": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ],
+            "How": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ]
+          }
+        },
+        "podevents": {
+          "Meta": {
+            "title": "Mukammel - Building Brands & Digital Presence",
+            "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
+          },
+          "title": "Mukammel",
+          "description": "lorem",
+          "tags": [
+            "UI/UX Design",
+            "Web Developmnet"
+          ],
+          "body": {
+            "What": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ],
+            "Why": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ],
+            "How": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ]
+          }
+        },
+        "dallal": {
+          "Meta": {
+            "title": "Mukammel - Building Brands & Digital Presence",
+            "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
+          },
+          "title": "Mukammel",
+          "description": "lorem",
+          "tags": [
+            "UI/UX Design",
+            "Web Developmnet"
+          ],
+          "body": {
+            "What": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ],
+            "Why": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ],
+            "How": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ]
+          }
+        },
+        "dpartners": {
+          "Meta": {
+            "title": "Mukammel - Building Brands & Digital Presence",
+            "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
+          },
+          "title": "Mukammel",
+          "description": "lorem",
+          "tags": [
+            "UI/UX Design",
+            "Web Developmnet"
+          ],
+          "body": {
+            "What": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ],
+            "Why": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ],
+            "How": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ]
+          }
+        },
+        "scitecs": {
           "Meta": {
             "title": "Mukammel - Building Brands & Digital Presence",
             "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."

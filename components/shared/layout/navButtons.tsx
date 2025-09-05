@@ -11,11 +11,13 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
+import { Globe } from "lucide-react"
 
 
 export default function NavButtons() {
   const t = useTranslations("Nav")
+  const locale = useLocale()
   const navItems = [
     { title: t("0.title"), href: "/" },
     {
@@ -80,8 +82,18 @@ export default function NavButtons() {
                 <Link href={item.href}>{item.title}</Link>
               </NavigationMenuLink>
             )}
+
           </NavigationMenuItem>
         ))}
+        <NavigationMenuItem className="bg-transparent ml-2">
+          <Link href={locale === "en" ? "/ar" : "/en"} className="flex justify-center items-center gap-2">
+            <Globe />
+            <div>
+              {locale === "en" ? "Ar" : "En"}
+            </div>
+          </Link>
+        </NavigationMenuItem>
+
       </NavigationMenuList>
     </NavigationMenu>
   )
