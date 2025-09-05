@@ -3,100 +3,73 @@ import Heading from '@/components/shared/typography/heading'
 import React from 'react'
 import { Card, CardAction, CardContent, CardHeader } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { SpeakerIcon } from 'lucide-react'
-
+import { useTranslations } from 'next-intl'
+import { CheckCircle, User, Briefcase, FileText, Clock, CreditCard, Home, Laptop, Shield } from 'lucide-react'
 
 function HowDoesItWork() {
+  const t = useTranslations("Services.StaffAugmentation.howDoesItWorkSection")
+
+  const workflowItems = t.raw("Workflow.items") as string[]
+  const workflowIcons = [CheckCircle, FileText, Clock, CreditCard, Briefcase, FileText] // pick icons for workflow
+
+  const benefitItems = t.raw("EmployeesBenefits.items") as string[]
+  const benefitIcons = [User, Shield, FileText, Home, Laptop] // pick icons for benefits
+
   return (
     <Section type='outer'>
-      <Heading
-        className='text-primary'
-        size='md'
-      >
-        How Does it Work
+      <Heading className='text-primary mb-6' size='md'>
+        {t("title")}
       </Heading>
 
-      <Heading
-        className='text-primary'
-        size='sm'
-      >
-        Work Flow
+      {/* Workflow */}
+      <Heading className='text-primary mb-4' size='sm'>
+        {t("Workflow.title")}
       </Heading>
-      <div className='grid grid-cols-3'>
-        <Card className="w-full max-w-sm"> <CardHeader>
-          <Heading size={'sm'} className='text-left'>
-            Login to your account
-          </Heading>
-          <CardAction>
-            <Button variant="link">
-              <SpeakerIcon />
-            </Button>
-          </CardAction>
-        </CardHeader>
-          <CardContent>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem earum, ex vel et iusto veniam consectetur ipsam cum assumenda, fugiat eveniet facere suscipit praesentium numquam ad aperiam omnis ullam?
-          </CardContent>
-        </Card>
-        <Card className="w-full max-w-sm">
-          <CardHeader>
-            <Heading size={'sm'} className='text-left'>
-              Login to your account
-            </Heading>
-            <CardAction>
-              <Button variant="link">
-                <SpeakerIcon />
-              </Button>
-            </CardAction>
-          </CardHeader>
-          <CardContent>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem earum, ex vel et iusto veniam consectetur ipsam cum assumenda, fugiat eveniet facere suscipit praesentium numquam ad aperiam omnis ullam?
-          </CardContent>
-        </Card>
-        <Card className="w-full max-w-sm">
-          <CardHeader>
-            <Heading size={'sm'} className='text-left'>
-              Login to your account
-            </Heading>
-            <CardAction>
-              <Button variant="link">
-                <SpeakerIcon />
-              </Button>
-            </CardAction>
-          </CardHeader>
-          <CardContent>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem earum, ex vel et iusto veniam consectetur ipsam cum assumenda, fugiat eveniet facere suscipit praesentium numquam ad aperiam omnis ullam?
-          </CardContent>
-        </Card>
-        <Card className="w-full max-w-sm">
-          <CardHeader>
-            <Heading size={'sm'} className='text-left'>
-              Login to your account
-            </Heading>
-            <CardAction>
-              <Button variant="link">
-                <SpeakerIcon />
-              </Button>
-            </CardAction>
-          </CardHeader>
-          <CardContent>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem earum, ex vel et iusto veniam consectetur ipsam cum assumenda, fugiat eveniet facere suscipit praesentium numquam ad aperiam omnis ullam?
-          </CardContent>
-        </Card>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8'>
+        {workflowItems.map((item, index) => {
+          const Icon = workflowIcons[index] || CheckCircle
+          return (
+            <Card key={index} className="w-full max-w-sm">
+              <CardHeader className="flex justify-between items-center">
+                <Heading size={'sm'} className='text-left'>
+                  Step {index + 1}
+                </Heading>
+                <CardAction>
+                  <Button variant="link">
+                    <Icon className="w-5 h-5" />
+                  </Button>
+                </CardAction>
+              </CardHeader>
+              <CardContent>
+                {item}
+              </CardContent>
+            </Card>
+          )
+        })}
       </div>
 
-      <Heading
-        className='text-primary'
-        size='sm'
-      >
-        EMPLOYEES BENEFITS
-        & WORK ENVIROMENT
+      {/* Employee Benefits */}
+      <Heading className='text-primary mb-4' size='sm'>
+        {t("EmployeesBenefits.title")}
       </Heading>
-      <div>
-        <div>01 Social Insurance</div>
-        <div>02 Social Insurance</div>
-        <div>03 Social Insurance</div>
-        <div>04 Social Insurance</div>
-        <div>05 Social Insurance</div>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
+        {benefitItems.map((item, index) => {
+          const Icon = benefitIcons[index] || User
+          return (
+            <Card key={index} className="w-full max-w-sm">
+              <CardHeader className="flex justify-between items-center">
+                <Heading size={'sm'} className='text-left'>
+                  {item}
+                </Heading>
+                <CardAction>
+                  <Button variant="link">
+                    <Icon className="w-5 h-5" />
+                  </Button>
+                </CardAction>
+              </CardHeader>
+            </Card>
+          )
+        })}
       </div>
     </Section>
   )

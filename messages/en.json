@@ -75,6 +75,109 @@
     }
   },
   "Services": {
+    "StaffAugmentation": {
+      "title": "Staff Augmentation",
+      "description": "This service provides flexible, pre-vetted talent to help you scale quickly—meeting project demands without the overhead of permanent hires.",
+      "WhySection": {
+        "title": "Why Staff augmentation?",
+        "items": [
+          {
+            "title": "Hassle free employment",
+            "description": [
+              "This allows companies to scale their teams up or down based on project requirements or business needs and provides the flexibility to tackle projects of varying sizes without worrying about maintaining a large workforce year-round.",
+              "The company can bypass lengthy hiring and onboarding processes, as many augmented staff are already trained in their specialties."
+            ]
+          },
+          {
+            "title": "Lower Cost",
+            "description": "Reduces the need for lengthy recruitment processes, full-time salaries, benefits, and other overhead costs associated with permanent hires. Companies pay only for the specific skills they need, exactly when they need them."
+          },
+          {
+            "title": "Great Talents",
+            "description": "Bring in experts with specific skills that your current team may lack, ensuring high-quality project delivery."
+          }
+        ]
+      },
+      "WhyEgyptSection": {
+        "title": "Why Egypt?",
+        "items": [
+          {
+            "title": "Large Pool of Skilled Talent",
+            "description": "Egypt has a highly educated workforce, particularly in fields like IT, engineering, and business. This allows companies to find skilled professionals for specialized roles, such as software development, data analysis, and project management."
+          },
+          {
+            "title": "Cost Effieciency",
+            "description": "Egypt has become a hub for IT outsourcing, with professionals experienced in international business practices from clients in the U.S., Europe, and the Middle East."
+          },
+          {
+            "title": "Growing Experience with Global Clients",
+            "description": "Egypt has become a hub for IT outsourcing, with professionals experienced in international business practices from clients in the U.S., Europe, and the Middle East."
+          },
+          {
+            "title": "Time zone",
+            "description": "Located at the crossroads of Europe, Asia, and Africa, Egypt’s Eastern European Time (EET) zone facilitates seamless business continuity with the US and Asia."
+          }
+        ]
+      },
+      "ourServicesSection": {
+        "title": "Our Services",
+        "items": [
+          "TALENTS SOURCING",
+          "FULLY OUTSOURCING",
+          "MANAGED SQUAD"
+        ]
+      },
+      "howDoesItWorkSection": {
+        "title": "How Does it Work?",
+        "Workflow": {
+          "title": "Work flow",
+          "items": [
+            "Sign a contract with The Connector Consultancy and an Intellectual Property (IP) Agreement.",
+            "We formalize employment contracts between candidates and our subsidiary company, including social insurance coverage.",
+            "Social insurance coverage begins on the first day of employment.",
+            "Salary transfers are processed through bank accounts.",
+            "Monthly salaries are paid after social insurance (employee share) and taxes are deducted according to Egyptian law.",
+            "The Connector will keep a file for each employee in accordance with Egyptian labor law."
+          ]
+        },
+        "EmployeesBenefits": {
+          "title": "EMPLOYEES BENEFITS & WORK ENVIROMENT",
+          "items": [
+            "Social Insurance",
+            "Medical Insurance",
+            "Yearly Contract",
+            "Workspace in Cairo & Alexandria",
+            "Asset Managment (Laptop,Mobile, ...)"
+          ]
+        }
+      },
+      "pricingModelSection": {
+        "title": "Pricing Model",
+        "items": [
+          {
+            "title": "Talents sourcing",
+            "description": [
+              "Fixed fee per resource",
+              "One-time invoice"
+            ]
+          },
+          {
+            "title": "Fully outsourcing",
+            "description": [
+              "Percentage (%) of the Salary cost",
+              "MOnthly invoices"
+            ]
+          },
+          {
+            "title": "Managed Squad",
+            "description": [
+              "Fixed monthly fee per each resource",
+              "Resource pricing based on title, experience, and skill set."
+            ]
+          }
+        ]
+      }
+    },
     "SoftLanding": {
       "title": "Soft Landing Across (MENA)",
       "description": "This service provides comprehensive support for international businesses seeking to establish and expand their presence across Middle Eastern and North African markets.",

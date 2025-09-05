@@ -3,6 +3,7 @@ import OurServicesSection from '@/components/pages/staff-agumentation/ourService
 import PricingModel from '@/components/pages/staff-agumentation/pricingModel'
 import WhyEgyptSection from '@/components/pages/staff-agumentation/WhyEgyptSection'
 import WhySection from '@/components/pages/staff-agumentation/whySection'
+import CtaSection from '@/components/shared/sections/ctaSection'
 import HeroSection from '@/components/shared/sections/heroSection'
 import React from 'react'
 
@@ -19,6 +20,7 @@ function Page() {
       <OurServicesSection />
       <HowDoesItWork />
       <PricingModel />
+      <CtaSection />
     </>
   )
 }
