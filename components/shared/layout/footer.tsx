@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
 import LaunchUI from "@/components/logos/launch-ui";
+import Image from "next/image"
 import {
   Footer as FooterComponent,
   FooterBottom,
@@ -31,7 +32,6 @@ interface FooterProps {
 }
 
 export default function Footer({
-  logo = <LaunchUI />,
   name = "Launch UI",
   columns = [
     {
@@ -63,15 +63,19 @@ export default function Footer({
   className,
 }: FooterProps) {
   return (
-    <footer className={cn("bg-background w-full px-4", className)}>
+    <footer className={cn("bg-background w-full px-8", className)}>
       <div className="max-w-container mx-auto">
         <FooterComponent>
           <FooterContent className="flex justify-between items-start">
             {/* Left logo section */}
             <FooterColumn className="flex-shrink-0">
-              <div className="flex items-center gap-2">
-                {logo}
-                <h3 className="text-xl font-bold">{name}</h3>
+              <div className="flex items-center gap-2 w-12 h-12">
+                <Image
+                  src={"/icons/logoBlue.svg"}
+                  alt={"logo"}
+                  width={100}
+                  height={100}
+                />
               </div>
             </FooterColumn>
 
