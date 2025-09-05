@@ -73,5 +73,44 @@
         }
       ]
     }
+  },
+  "Services": {
+    "SoftwareEngineering": {
+      "title": "Software Engineering",
+      "description": "This comprehensive service encompasses everything from foundational brand identity creation - including distinctive logo design, cohesive visual elements, and detailed brand guidelines - to full-scale digital presence development through custom, SEO-optimized websites and strategic social media management across key platforms.",
+      "items": [
+        "Web Development",
+        "Mobile Application Development",
+        "AI",
+        "Cyber Security"
+      ]
+    },
+    "BuildingBrands": {
+      "title": "Building Brands",
+      "description": "This comprehensive service encompasses everything from foundational brand identity creation - including distinctive logo design, cohesive visual elements, and detailed brand guidelines - to full-scale digital presence development through custom, SEO-optimized websites and strategic social media management across key platforms.",
+      "secondaryDescription": [
+        "This integrated approach is particularly valuable for businesses seeking to establish a strong market presence while simultaneously building effective sales channels, as it aligns brand messaging with sales objectives across all customer touchpoints - from social media engagement to direct sales interactions.",
+        "The sales strategy component provides detailed market analysis, customer journey mapping, pricing strategies, and sales process optimization, ensuring brands not only look professional but also perform effectively in the market.",
+        "The service extends beyond traditional branding by integrating sophisticated sales enablement tools, including customized sales kits that arm teams with compelling presentation materials, product catalogs, case studies, and pitch decks."
+      ],
+      "brandingSection": {
+        "title": "Branding",
+        "description": "We help you create a cohesive brand identity that resonates with your target audience. Our branding services include:",
+        "items": [
+          "Logo Design",
+          "Brand Guidelines",
+          "Visual Identity"
+        ]
+      },
+      "DigitalPresenceSection": {
+        "title": "Digital Presence",
+        "description": "We help you create a cohesive brand identity that resonates with your target audience. Our branding services include:",
+        "items": [
+          "Social Media Strategy",
+          "Content Creation",
+          "Analytics and Reporting"
+        ]
+      }
+    }
   }
 }

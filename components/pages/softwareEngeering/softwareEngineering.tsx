@@ -1,25 +1,30 @@
+import React from 'react'
 import Section from '@/components/shared/layout/section'
 import Description from '@/components/shared/typography/description'
 import Heading from '@/components/shared/typography/heading'
-import { BookCheck, Fingerprint, Hexagon } from 'lucide-react'
 import { useTranslations } from 'next-intl'
-import React from 'react'
 
-function BrandingSection() {
-  const t = useTranslations("Services.BuildingBrands.brandingSection")
-  const services = t.raw("items") as String[]
-  const icons = [Hexagon, BookCheck, Fingerprint]
+// Lucide icons
+import { Laptop, Smartphone, Cpu, Shield } from 'lucide-react'
+
+function SoftwareEngineering() {
+  const t = useTranslations("Services.SoftwareEngineering")
+  const services = t.raw("items") as string[]
+
+  // Map icons to services
+  const icons = [Laptop, Smartphone, Cpu, Shield]
+
   return (
     <Section type={'outer'}>
-      <Heading size={'md'} >
+      <Heading size={'md'} className="mb-4">
         {t("title")}
       </Heading>
-      <Description size={'md'} className='text-center'>
+      <Description size={'md'} className="text-center mb-8">
         {t("description")}
       </Description>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center mt-5">
-        {services.map((service, index: number) => {
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+        {services.map((service, index) => {
           const Icon = icons[index]
           return (
             <div key={index} className="flex flex-col items-center gap-4">
@@ -35,4 +40,4 @@ function BrandingSection() {
   )
 }
 
-export default BrandingSection
+export default SoftwareEngineering

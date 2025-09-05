@@ -37,7 +37,8 @@ export default function Footer({
     {
       title: "Building Brands & Software Engineering",
       links: [
-        { text: "Services", href: "/services/buliding-brands-and-software-engineering" },
+        { text: "Software Engineering Services", href: "/services/software-engineering" },
+        { text: "Building Brands Services", href: "/services/buliding-brands" },
         { text: "Portfolio", href: "/portfolio/building-brands" },
       ],
     },
