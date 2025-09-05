@@ -1,11 +1,16 @@
 import BrandingSection from '@/components/pages/building-brands/brandingSection'
 import DigitalPresence from '@/components/pages/building-brands/digitalPresence'
-import SoftwareEngineering from '@/components/pages/softwareEngeering/softwareEngineering'
 import CtaSection from '@/components/shared/sections/ctaSection'
 import HeroSection from '@/components/shared/sections/heroSection'
 import Description from '@/components/shared/typography/description'
+import { generateMetadataAbstraction } from '@/lib/metaUtils'
+import { Metadata } from 'next'
 import { useTranslations } from 'next-intl'
 import React from 'react'
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateMetadataAbstraction("Services.BuildingBrands.Meta");
+}
 
 function Page() {
   const t = useTranslations("Services.BuildingBrands")

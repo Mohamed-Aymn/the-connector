@@ -3,6 +3,10 @@
     "title": "Sorry, this page could not be found.",
     "button": "Go back to the home page"
   },
+  "Meta": {
+    "title": "The Connector",
+    "description": "We help companies scale with flexible, pre-vetted talent and digital solutions."
+  },
   "Home": {
     "HeroSection": {
       "title": "Business Development as a Service",
@@ -80,6 +84,10 @@
   },
   "Services": {
     "StaffAugmentation": {
+      "Meta": {
+        "title": "Staff Augmentation Service - The Connector",
+        "description": "Flexible, pre-vetted talent to scale your projects quickly without the overhead of permanent hires."
+      },
       "title": "Staff Augmentation",
       "description": "This service provides flexible, pre-vetted talent to help you scale quickly—meeting project demands without the overhead of permanent hires.",
       "WhySection": {
@@ -183,6 +191,10 @@
       }
     },
     "SoftLanding": {
+      "Meta": {
+        "title": "Soft Landing Service - The Connector",
+        "description": "Assisting businesses to establish a smooth operational presence locally without administrative headaches."
+      },
       "title": "Soft Landing Across (MENA)",
       "description": "This service provides comprehensive support for international businesses seeking to establish and expand their presence across Middle Eastern and North African markets.",
       "secondaryDescription": [
@@ -192,6 +204,10 @@
       ]
     },
     "SoftwareEngineering": {
+      "Meta": {
+        "title": "Software Engineering Services - The Connector",
+        "description": "We develop custom software solutions, web & mobile applications, and AI-powered systems for your business."
+      },
       "title": "Software Engineering",
       "description": "This comprehensive service encompasses everything from foundational brand identity creation - including distinctive logo design, cohesive visual elements, and detailed brand guidelines - to full-scale digital presence development through custom, SEO-optimized websites and strategic social media management across key platforms.",
       "items": [
@@ -202,6 +218,10 @@
       ]
     },
     "BuildingBrands": {
+      "Meta": {
+        "title": "Building Brands Services - The Connector",
+        "description": "Helping businesses build strong, cohesive brands and digital presence to engage customers effectively."
+      },
       "title": "Building Brands",
       "description": "This comprehensive service encompasses everything from foundational brand identity creation - including distinctive logo design, cohesive visual elements, and detailed brand guidelines - to full-scale digital presence development through custom, SEO-optimized websites and strategic social media management across key platforms.",
       "secondaryDescription": [
@@ -231,11 +251,19 @@
   },
   "Portfolio": {
     "buildingBrandsAndSoftwareEngineering": {
+      "Meta": {
+        "title": "Building Brands & Digital Presence - The Connector",
+        "description": "We help businesses craft strong digital identities through UI/UX design, web development, and branding solutions that drive engagement and growth."
+      },
       "title": "Building Brands & Digital Presence",
       "description": "lorem",
       "items": {
         "venttat": {
           "title": "Venttat",
+          "Meta": {
+            "title": "Venttat - Building Brands & Digital Presence",
+            "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
+          },
           "description": "lorem",
           "tags": [
             "UI/UX Design",
@@ -260,6 +288,10 @@
           }
         },
         "mukammel": {
+          "Meta": {
+            "title": "Mukammel - Building Brands & Digital Presence",
+            "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
+          },
           "title": "Mukammel",
           "description": "lorem",
           "tags": [
@@ -286,7 +318,12 @@
         }
       }
     },
-    "staffAugmentationAndSoftLanding": {}
+    "staffAugmentationAndSoftLanding": {
+      "Meta": {
+        "title": "Staff Augmentation & Soft Landing - The Connector",
+        "description": "Flexible, pre-vetted talent to scale your projects quickly and seamless market entry support to establish your business presence in new regions."
+      }
+    }
   },
   "Footer": {
     "columns": [

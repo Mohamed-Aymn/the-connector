@@ -1,8 +1,13 @@
 import ClientsSection from '@/components/shared/sections/clientsSection'
 import CtaSection from '@/components/shared/sections/ctaSection'
 import Hero from '@/components/shared/sections/heroSection'
-import { Link } from '@/i18n/navigation'
+import { generateMetadataAbstraction } from '@/lib/metaUtils'
+import { Metadata } from 'next'
 import React from 'react'
+
+export async function generateMetadata(): Promise<Metadata> {
+  return generateMetadataAbstraction("Portfolio.staffAugmentationAndSoftLanding.Meta");
+}
 
 function Page() {
   return (
