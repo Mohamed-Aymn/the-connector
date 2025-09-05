@@ -45,6 +45,10 @@
         {
           "title": "Buliding Brands & Digital Presence",
           "description": "We build cohesive brand identities with logo design, guidelines, websites, and social media—plus sales kits and strategies to help you stand out."
+        },
+        {
+          "title": "Software Engineering",
+          "description": "We build cohesive brand identities with logo design, guidelines, websites, and social media—plus sales kits and strategies to help you stand out."
         }
       ]
     },
@@ -224,5 +228,64 @@
         ]
       }
     }
+  },
+  "Portfolio": {
+    "buildingBrandsAndSoftwareEngineering": {
+      "title": "Building Brands & Digital Presence",
+      "description": "lorem",
+      "items": {
+        "venttat": {
+          "title": "Venttat",
+          "description": "lorem",
+          "tags": [
+            "UI/UX Design",
+            "Web Developmnet"
+          ],
+          "body": {
+            "What": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ],
+            "Why": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ],
+            "How": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ]
+          }
+        },
+        "mukammel": {
+          "title": "Mukammel",
+          "description": "lorem",
+          "tags": [
+            "UI/UX Design",
+            "Web Developmnet"
+          ],
+          "body": {
+            "What": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ],
+            "Why": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ],
+            "How": [
+              "lorem",
+              "lorem",
+              "lorem"
+            ]
+          }
+        }
+      }
+    },
+    "staffAugmentationAndSoftLanding": {}
   }
 }
