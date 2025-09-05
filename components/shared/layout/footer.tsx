@@ -9,7 +9,6 @@ import {
   FooterColumn,
   FooterContent,
 } from "@/components/ui/footer";
-import { ModeToggle } from "@/components/ui/mode-toggle";
 
 interface FooterLink {
   text: string;
@@ -36,73 +35,70 @@ export default function Footer({
   name = "Launch UI",
   columns = [
     {
-      title: "Product",
+      title: "Building Brands & Software Engineering",
       links: [
-        { text: "Changelog", href: "#" },
-        { text: "Documentation", href: "#" },
+        { text: "Services", href: "/services/buliding-brands-and-software-engineering" },
+        { text: "Portfolio", href: "/portfolio/building-brands" },
       ],
     },
     {
-      title: "Company",
+      title: "Staff Augmentation & Soft Landing",
       links: [
-        { text: "About", href: "#" },
-        { text: "Careers", href: "#" },
-        { text: "Blog", href: "#" },
+        { text: "Staff Augmentation Service", href: "/services/staff-augmentation" },
+        { text: "Soft Landing Service", href: "/services/soft-landing" },
+        { text: "Portfolio", href: "/portfolio/staff-augmentation-and-soft-landing" },
       ],
     },
     {
       title: "Contact",
       links: [
-        { text: "Discord", href: "#" },
-        { text: "Twitter", href: "#" },
-        { text: "Github", href: "#" },
+        { text: "Contact us Page", href: "/contact" },
+        { text: "Facebook", href: "#" },
+        { text: "Linkedin", href: "#" },
       ],
     },
   ],
-  copyright = "© 2025 Mikołaj Dobrucki. All rights reserved",
-  policies = [
-    { text: "Privacy Policy", href: "#" },
-    { text: "Terms of Service", href: "#" },
-  ],
-  showModeToggle = true,
+  copyright = "© 2025 The Connector. All rights reserved",
+
   className,
 }: FooterProps) {
   return (
     <footer className={cn("bg-background w-full px-4", className)}>
       <div className="max-w-container mx-auto">
         <FooterComponent>
-          <FooterContent>
-            <FooterColumn className="col-span-2 sm:col-span-3 md:col-span-1">
+          <FooterContent className="flex justify-between items-start">
+            {/* Left logo section */}
+            <FooterColumn className="flex-shrink-0">
               <div className="flex items-center gap-2">
                 {logo}
                 <h3 className="text-xl font-bold">{name}</h3>
               </div>
             </FooterColumn>
-            {columns.map((column, index) => (
-              <FooterColumn key={index}>
-                <h3 className="text-md pt-1 font-semibold">{column.title}</h3>
-                {column.links.map((link, linkIndex) => (
-                  <a
-                    key={linkIndex}
-                    href={link.href}
-                    className="text-muted-foreground text-sm"
-                  >
-                    {link.text}
-                  </a>
-                ))}
-              </FooterColumn>
-            ))}
-          </FooterContent>
-          <FooterBottom>
-            <div>{copyright}</div>
-            <div className="flex items-center gap-4">
-              {policies.map((policy, index) => (
-                <a key={index} href={policy.href}>
-                  {policy.text}
-                </a>
+
+            {/* Right columns section */}
+            <div className="flex gap-8">
+              {columns.map((column, index) => (
+                <FooterColumn key={index}>
+                  <h3 className="text-md pt-1 font-semibold text-right break-words">
+                    {column.title}
+                  </h3>
+                  <div className="flex flex-col items-end"> {/* 👈 align links to right */}
+                    {column.links.map((link, linkIndex) => (
+                      <a
+                        key={linkIndex}
+                        href={link.href}
+                        className="text-muted-foreground text-sm mb-2"
+                      >
+                        {link.text}
+                      </a>
+                    ))}
+                  </div>
+                </FooterColumn>
               ))}
-              {showModeToggle && <ModeToggle />}
             </div>
+          </FooterContent>
+          <FooterBottom className="flex justify-center items-center">
+            <div>{copyright}</div>
           </FooterBottom>
         </FooterComponent>
       </div>
