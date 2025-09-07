@@ -1,83 +1,85 @@
 {
   "NotFoundPage": {
-    "title": "Sorry, this page could not be found.",
-    "button": "Go back to the home page"
+    "title": "عذرًا، لم يتم العثور على هذه الصفحة.",
+    "button": "العودة إلى الصفحة الرئيسية"
   },
   "Meta": {
     "title": "The Connector",
-    "description": "We help companies scale with flexible, pre-vetted talent and digital solutions."
+    "description": "نساعد الشركات على التوسع من خلال مواهب مرنة ومُختارة بعناية وحلول رقمية."
   },
   "Home": {
     "HeroSection": {
-      "title": "Hello world",
-      "button": "Contact us!"
+      "title": "تطوير الأعمال كخدمة",
+      "description": "نساعد الشركات على التوسع من خلال مواهب مرنة ومُختارة بعناية وحلول رقمية.",
+      "button1": "اكتشف المزيد",
+      "button2": "تواصل معنا!"
     },
     "AboutSection": {
-      "title": "About Us",
+      "title": "من نحن",
       "description1": [
-        "Welcome to",
+        "مرحبًا بكم في",
         "The Connector Consultancy",
-        "the premier business consulting firm dedicated to fostering growth and success in the Middle East and North Africa (MENA) region."
+        "شركة الاستشارات الرائدة المكرسة لتعزيز النمو والنجاح في منطقة الشرق الأوسط وشمال إفريقيا (MENA)."
       ],
-      "description2": "  With a team of experienced professionals and an extensive network of industry connections, we are committed to providing tailored solutions that empower businesses to thrive in this dynamic economic landscape.",
+      "description2": "مع فريق من المحترفين ذوي الخبرة وشبكة واسعة من العلاقات الصناعية، نحن ملتزمون بتقديم حلول مخصصة تمكّن الشركات من الازدهار في هذا المشهد الاقتصادي الديناميكي.",
       "numbers": [
         {
-          "title": "Clients surveyed",
+          "title": "العملاء المستفيدون",
           "number": 25
         },
         {
-          "title": "Countries of Operation",
+          "title": "الدول التي نعمل بها",
           "number": 5
         },
         {
-          "title": "successful projects",
+          "title": "المشاريع الناجحة",
           "number": 40
         }
       ]
     },
     "OurServicesSection": {
-      "title": "Our Services",
+      "title": "خدماتنا",
       "items": [
         {
-          "title": "Staff Augmentation",
-          "description": "We provide flexible, pre-vetted talent to help you scale quickly—meeting project demands without the overhead of permanent hires."
+          "title": "تعزيز الكوادر",
+          "description": "نوفر مواهب مرنة ومختارة بعناية لمساعدتك على التوسع بسرعة—بما يلبي متطلبات المشاريع دون الأعباء المرتبطة بالتوظيف الدائم."
         },
         {
-          "title": "Soft Landing Across (MENA)",
-          "description": "We help international businesses enter and grow in the Middle East and North Africa, providing market entry strategies, legal setup, partnerships, and regulatory guidance."
+          "title": "الهبوط السلس عبر (MENA)",
+          "description": "نساعد الشركات الدولية على الدخول والنمو في منطقة الشرق الأوسط وشمال إفريقيا من خلال استراتيجيات دخول السوق، والإجراءات القانونية، وبناء الشراكات، والتوجيه التنظيمي."
         },
         {
-          "title": "Buliding Brands & Digital Presence",
-          "description": "We build cohesive brand identities with logo design, guidelines, websites, and social media—plus sales kits and strategies to help you stand out."
+          "title": "بناء العلامات التجارية والحضور الرقمي",
+          "description": "ننشئ هويات تجارية متكاملة تشمل تصميم الشعارات، الأدلة الإرشادية، المواقع الإلكترونية، ووسائل التواصل الاجتماعي—بالإضافة إلى أدوات المبيعات والاستراتيجيات التي تساعدك على التميز."
         },
         {
-          "title": "Software Engineering",
-          "description": "We build cohesive brand identities with logo design, guidelines, websites, and social media—plus sales kits and strategies to help you stand out."
+          "title": "الهندسة البرمجية",
+          "description": "نصمم حلولًا برمجية متكاملة تشمل تصميم الأنظمة، التطوير، الاختبار، والنشر—بهدف دعم نمو أعمالك بكفاءة واستدامة."
         }
       ]
     },
     "OurValuesSection": {
-      "title": "Our Values",
+      "title": "قيمنا",
       "items": [
         {
-          "title": "EFFICIENCY",
-          "description": "We optimize business processes to deliver rapid, precise, and cost-effective consultancy services tailored to your needs."
+          "title": "الكفاءة",
+          "description": "نُحسّن عمليات الأعمال لتقديم خدمات استشارية سريعة، دقيقة، وفعّالة من حيث التكلفة، ومصممة خصيصًا لتلبية احتياجاتك."
         },
         {
-          "title": "EMPOWERMENT",
-          "description": "We equip organizations with the tools and strategies necessary to empower their teams, enhance their capabilities, and expand their influence."
+          "title": "التمكين",
+          "description": "نزود المؤسسات بالأدوات والاستراتيجيات اللازمة لتمكين فرقها، وتعزيز قدراتها، وتوسيع نطاق تأثيرها."
         },
         {
-          "title": "CREATIVITY",
-          "description": "We foster innovative thinking and original solutions that inspire and engage stakeholders, driving your business forward."
+          "title": "الإبداع",
+          "description": "نُعزز التفكير الابتكاري ونُطور حلولًا أصلية تُلهم وتُشرك أصحاب المصلحة، مما يدفع عملك نحو الأمام."
         },
         {
-          "title": "CONSISTENCY",
-          "description": "We ensure a uniform, high-quality experience across all projects, regardless of location so that you can trust our expertise every time."
+          "title": "الاستمرارية",
+          "description": "نضمن لك تجربة موحدة وذات جودة عالية عبر جميع المشاريع، بغض النظر عن الموقع، حتى تتمكن من الوثوق بخبرتنا في كل مرة."
         },
         {
-          "title": "CULTURAL GROWTH",
-          "description": "We champion the development of diverse voices in the business landscape, promoting growth and representation within the MENA region and beyond."
+          "title": "النمو الثقافي",
+          "description": "ندعم تنمية الأصوات المتنوعة في المشهد التجاري، مع تعزيز النمو والتمثيل داخل منطقة الشرق الأوسط وشمال إفريقيا وخارجها."
         }
       ]
     }
@@ -85,106 +87,106 @@
   "Services": {
     "StaffAugmentation": {
       "Meta": {
-        "title": "Staff Augmentation Service - The Connector",
-        "description": "Flexible, pre-vetted talent to scale your projects quickly without the overhead of permanent hires."
+        "title": "خدمة تعزيز الكوادر - The Connector",
+        "description": "مواهب مرنة ومُختارة بعناية لتوسيع مشاريعك بسرعة دون أعباء التوظيف الدائم."
       },
-      "title": "Staff Augmentation",
-      "description": "This service provides flexible, pre-vetted talent to help you scale quickly—meeting project demands without the overhead of permanent hires.",
+      "title": "تعزيز الكوادر",
+      "description": "تُوفر هذه الخدمة مواهب مرنة ومختارة بعناية لمساعدتك على التوسع بسرعة—بما يلبي متطلبات المشاريع دون أعباء التوظيف الدائم.",
       "WhySection": {
-        "title": "Why Staff augmentation?",
+        "title": "لماذا تعزيز الكوادر؟",
         "items": [
           {
-            "title": "Hassle free employment",
+            "title": "توظيف بدون عناء",
             "description": [
-              "This allows companies to scale their teams up or down based on project requirements or business needs and provides the flexibility to tackle projects of varying sizes without worrying about maintaining a large workforce year-round.",
-              "The company can bypass lengthy hiring and onboarding processes, as many augmented staff are already trained in their specialties."
+              "يتيح ذلك للشركات توسيع فرقها أو تقليصها وفقًا لمتطلبات المشاريع أو احتياجات العمل، ويوفر المرونة للتعامل مع مشاريع بأحجام مختلفة دون القلق بشأن الحفاظ على قوة عاملة كبيرة طوال العام.",
+              "يمكن للشركة تجنب عمليات التوظيف الطويلة والإجراءات المعقدة، حيث إن العديد من الموظفين المعززين مدرَّبون بالفعل في تخصصاتهم."
             ]
           },
           {
-            "title": "Lower Cost",
-            "description": "Reduces the need for lengthy recruitment processes, full-time salaries, benefits, and other overhead costs associated with permanent hires. Companies pay only for the specific skills they need, exactly when they need them."
+            "title": "خفض التكاليف",
+            "description": "يقلل من الحاجة إلى عمليات التوظيف الطويلة، والرواتب الكاملة، والمزايا، والتكاليف الإدارية الأخرى المرتبطة بالتوظيف الدائم. تدفع الشركات فقط مقابل المهارات المحددة التي تحتاجها، وفي الوقت المناسب."
           },
           {
-            "title": "Great Talents",
-            "description": "Bring in experts with specific skills that your current team may lack, ensuring high-quality project delivery."
+            "title": "مواهب مميزة",
+            "description": "إدخال خبراء يمتلكون مهارات محددة قد تفتقر إليها فرقك الحالية، مما يضمن جودة عالية في إنجاز المشاريع."
           }
         ]
       },
       "WhyEgyptSection": {
-        "title": "Why Egypt?",
+        "title": "لماذا مصر؟",
         "items": [
           {
-            "title": "Large Pool of Skilled Talent",
-            "description": "Egypt has a highly educated workforce, particularly in fields like IT, engineering, and business. This allows companies to find skilled professionals for specialized roles, such as software development, data analysis, and project management."
+            "title": "مجموعة كبيرة من الكفاءات الماهرة",
+            "description": "تضم مصر قوة عاملة متعلمة جيدًا، خاصة في مجالات تكنولوجيا المعلومات والهندسة والأعمال، مما يسمح للشركات بالعثور على محترفين ماهرين لأدوار متخصصة مثل تطوير البرمجيات، تحليل البيانات، وإدارة المشاريع."
           },
           {
-            "title": "Cost Effieciency",
-            "description": "Egypt has become a hub for IT outsourcing, with professionals experienced in international business practices from clients in the U.S., Europe, and the Middle East."
+            "title": "الكفاءة في التكاليف",
+            "description": "أصبحت مصر مركزًا لخدمات التعهيد في مجال تكنولوجيا المعلومات، مع محترفين لديهم خبرة في التعامل مع عملاء من الولايات المتحدة وأوروبا والشرق الأوسط."
           },
           {
-            "title": "Growing Experience with Global Clients",
-            "description": "Egypt has become a hub for IT outsourcing, with professionals experienced in international business practices from clients in the U.S., Europe, and the Middle East."
+            "title": "خبرة متزايدة مع العملاء العالميين",
+            "description": "أصبحت مصر مركزًا لخدمات التعهيد في مجال تكنولوجيا المعلومات، مع محترفين لديهم خبرة في الممارسات التجارية الدولية مع عملاء من الولايات المتحدة وأوروبا والشرق الأوسط."
           },
           {
-            "title": "Time zone",
-            "description": "Located at the crossroads of Europe, Asia, and Africa, Egypt’s Eastern European Time (EET) zone facilitates seamless business continuity with the US and Asia."
+            "title": "المنطقة الزمنية",
+            "description": "بفضل موقعها عند تقاطع أوروبا وآسيا وإفريقيا، فإن التوقيت الشرقي الأوروبي (EET) في مصر يسهل استمرارية الأعمال بسلاسة مع الولايات المتحدة وآسيا."
           }
         ]
       },
       "ourServicesSection": {
-        "title": "Our Services",
+        "title": "خدماتنا",
         "items": [
-          "TALENTS SOURCING",
-          "FULLY OUTSOURCING",
-          "MANAGED SQUAD"
+          "توفير الكفاءات",
+          "التعهيد الكامل",
+          "الفِرق المُدارة"
         ]
       },
       "howDoesItWorkSection": {
-        "title": "How Does it Work?",
+        "title": "كيف تعمل الخدمة؟",
         "Workflow": {
-          "title": "Work flow",
+          "title": "سير العمل",
           "items": [
-            "Sign a contract with The Connector Consultancy and an Intellectual Property (IP) Agreement.",
-            "We formalize employment contracts between candidates and our subsidiary company, including social insurance coverage.",
-            "Social insurance coverage begins on the first day of employment.",
-            "Salary transfers are processed through bank accounts.",
-            "Monthly salaries are paid after social insurance (employee share) and taxes are deducted according to Egyptian law.",
-            "The Connector will keep a file for each employee in accordance with Egyptian labor law."
+            "توقيع عقد مع The Connector Consultancy واتفاقية حقوق الملكية الفكرية (IP).",
+            "نقوم بتوثيق عقود العمل بين المرشحين وشركتنا الفرعية، بما في ذلك تغطية التأمينات الاجتماعية.",
+            "تبدأ تغطية التأمينات الاجتماعية من أول يوم عمل.",
+            "تُحوّل الرواتب عبر الحسابات البنكية.",
+            "تُدفع الرواتب الشهرية بعد خصم التأمينات الاجتماعية (حصة الموظف) والضرائب وفقًا للقانون المصري.",
+            "يحتفظ The Connector بملف لكل موظف وفقًا لقانون العمل المصري."
           ]
         },
         "EmployeesBenefits": {
-          "title": "EMPLOYEES BENEFITS & WORK ENVIROMENT",
+          "title": "مزايا الموظفين وبيئة العمل",
           "items": [
-            "Social Insurance",
-            "Medical Insurance",
-            "Yearly Contract",
-            "Workspace in Cairo & Alexandria",
-            "Asset Managment (Laptop,Mobile, ...)"
+            "التأمينات الاجتماعية",
+            "التأمين الطبي",
+            "عقد سنوي",
+            "مكاتب عمل في القاهرة والإسكندرية",
+            "إدارة الأصول (حاسب محمول، هاتف، ...)"
           ]
         }
       },
       "pricingModelSection": {
-        "title": "Pricing Model",
+        "title": "نموذج التسعير",
         "items": [
           {
-            "title": "Talents sourcing",
+            "title": "توفير الكفاءات",
             "description": [
-              "Fixed fee per resource",
-              "One-time invoice"
+              "رسوم ثابتة لكل مورد",
+              "فاتورة لمرة واحدة"
             ]
           },
           {
-            "title": "Fully outsourcing",
+            "title": "التعهيد الكامل",
             "description": [
-              "Percentage (%) of the Salary cost",
-              "MOnthly invoices"
+              "نسبة (%) من تكلفة الراتب",
+              "فواتير شهرية"
             ]
           },
           {
-            "title": "Managed Squad",
+            "title": "الفِرق المُدارة",
             "description": [
-              "Fixed monthly fee per each resource",
-              "Resource pricing based on title, experience, and skill set."
+              "رسوم شهرية ثابتة لكل مورد",
+              "تسعير الموارد يعتمد على المسمى الوظيفي، الخبرة، ومجموعة المهارات."
             ]
           }
         ]
@@ -192,59 +194,59 @@
     },
     "SoftLanding": {
       "Meta": {
-        "title": "Soft Landing Service - The Connector",
-        "description": "Assisting businesses to establish a smooth operational presence locally without administrative headaches."
+        "title": "خدمة الهبوط السلس - The Connector",
+        "description": "مساعدة الشركات على تأسيس وجود تشغيلي سلس محليًا دون أعباء إدارية."
       },
-      "title": "Soft Landing Across (MENA)",
-      "description": "This service provides comprehensive support for international businesses seeking to establish and expand their presence across Middle Eastern and North African markets.",
+      "title": "الهبوط السلس عبر (MENA)",
+      "description": "توفر هذه الخدمة دعمًا شاملًا للشركات الدولية الساعية لتأسيس وتوسيع وجودها في أسواق الشرق الأوسط وشمال إفريقيا.",
       "secondaryDescription": [
-        "This specialized service offers a strategic entry point by navigating the complex regulatory landscapes, diverse cultural nuances, and unique business ecosystems of countries Especially the GCC and North Africa Region.",
-        "Service providers assist with essential elements including market entry strategy, legal entity formation, local partnership development, officespace procurement, and regulatory compliance across different MENA jurisdictions.",
-        "Connecting you with MENA business hubs and stakeholders."
+        "تُقدّم هذه الخدمة المتخصصة نقطة دخول استراتيجية عبر التنقل في الأنظمة التنظيمية المعقدة، والفروق الثقافية المتنوعة، والأنظمة البيئية للأعمال، خاصة في دول الخليج وشمال إفريقيا.",
+        "يُساعد مزودو الخدمة في عناصر أساسية تشمل استراتيجية دخول السوق، تأسيس الكيانات القانونية، تطوير الشراكات المحلية، توفير مساحات العمل، والامتثال التنظيمي عبر مختلف أسواق المنطقة.",
+        "نربطك بمراكز الأعمال وأصحاب المصلحة في منطقة الشرق الأوسط وشمال إفريقيا."
       ]
     },
     "SoftwareEngineering": {
       "Meta": {
-        "title": "Software Engineering Services - The Connector",
-        "description": "We develop custom software solutions, web & mobile applications, and AI-powered systems for your business."
+        "title": "خدمات الهندسة البرمجية - The Connector",
+        "description": "نُطوّر حلول برمجية مخصصة، وتطبيقات ويب وجوال، وأنظمة مدعومة بالذكاء الاصطناعي لأعمالك."
       },
-      "title": "Software Engineering",
-      "description": "This comprehensive service encompasses everything from foundational brand identity creation - including distinctive logo design, cohesive visual elements, and detailed brand guidelines - to full-scale digital presence development through custom, SEO-optimized websites and strategic social media management across key platforms.",
+      "title": "الهندسة البرمجية",
+      "description": "تشمل هذه الخدمة الشاملة كل شيء بدءًا من إنشاء هوية العلامة التجارية الأساسية - بما في ذلك تصميم الشعار المميز، والعناصر البصرية المتكاملة، والإرشادات التفصيلية للعلامة - وصولًا إلى تطوير الحضور الرقمي الكامل من خلال مواقع إلكترونية مخصصة محسّنة لمحركات البحث، وإدارة استراتيجية لوسائل التواصل الاجتماعي عبر المنصات الرئيسية.",
       "items": [
-        "Web Development",
-        "Mobile Application Development",
-        "AI",
-        "Cyber Security"
+        "تطوير المواقع الإلكترونية",
+        "تطوير تطبيقات الجوال",
+        "الذكاء الاصطناعي",
+        "الأمن السيبراني"
       ]
     },
     "BuildingBrands": {
       "Meta": {
-        "title": "Building Brands Services - The Connector",
-        "description": "Helping businesses build strong, cohesive brands and digital presence to engage customers effectively."
+        "title": "خدمات بناء العلامات التجارية - The Connector",
+        "description": "نساعد الشركات على بناء علامات تجارية قوية ومتكاملة وحضور رقمي يضمن تفاعلًا فعالًا مع العملاء."
       },
-      "title": "Building Brands",
-      "description": "This comprehensive service encompasses everything from foundational brand identity creation - including distinctive logo design, cohesive visual elements, and detailed brand guidelines - to full-scale digital presence development through custom, SEO-optimized websites and strategic social media management across key platforms.",
+      "title": "بناء العلامات التجارية",
+      "description": "تشمل هذه الخدمة الشاملة كل شيء بدءًا من إنشاء هوية العلامة التجارية الأساسية - بما في ذلك تصميم الشعار المميز، والعناصر البصرية المتكاملة، والإرشادات التفصيلية للعلامة - وصولًا إلى تطوير الحضور الرقمي الكامل من خلال مواقع إلكترونية مخصصة محسّنة لمحركات البحث، وإدارة استراتيجية لوسائل التواصل الاجتماعي عبر المنصات الرئيسية.",
       "secondaryDescription": [
-        "This integrated approach is particularly valuable for businesses seeking to establish a strong market presence while simultaneously building effective sales channels, as it aligns brand messaging with sales objectives across all customer touchpoints - from social media engagement to direct sales interactions.",
-        "The sales strategy component provides detailed market analysis, customer journey mapping, pricing strategies, and sales process optimization, ensuring brands not only look professional but also perform effectively in the market.",
-        "The service extends beyond traditional branding by integrating sophisticated sales enablement tools, including customized sales kits that arm teams with compelling presentation materials, product catalogs, case studies, and pitch decks."
+        "يُعد هذا النهج المتكامل ذا قيمة خاصة للشركات التي تسعى إلى ترسيخ وجود قوي في السوق، مع بناء قنوات مبيعات فعالة، حيث ينسجم خطاب العلامة التجارية مع الأهداف البيعية عبر جميع نقاط التواصل مع العملاء—من التفاعل عبر وسائل التواصل إلى المبيعات المباشرة.",
+        "يوفر مكون استراتيجية المبيعات تحليلات مفصلة للسوق، ورسم رحلة العميل، واستراتيجيات التسعير، وتحسين عمليات البيع، مما يضمن أن العلامات التجارية لا تبدو احترافية فحسب بل وتؤدي بكفاءة في السوق.",
+        "تمتد الخدمة إلى ما بعد العلامة التجارية التقليدية عبر دمج أدوات تمكين المبيعات المتقدمة، بما في ذلك مجموعات المبيعات المخصصة التي تُزوّد الفرق بمواد تقديمية مقنعة، وكتيبات المنتجات، ودراسات الحالة، وعروض المبيعات."
       ],
       "brandingSection": {
-        "title": "Branding",
-        "description": "We help you create a cohesive brand identity that resonates with your target audience. Our branding services include:",
+        "title": "العلامة التجارية",
+        "description": "نساعدك على إنشاء هوية تجارية متكاملة تتماشى مع جمهورك المستهدف. تشمل خدماتنا في العلامة التجارية:",
         "items": [
-          "Logo Design",
-          "Brand Guidelines",
-          "Visual Identity"
+          "تصميم الشعار",
+          "إرشادات العلامة التجارية",
+          "الهوية البصرية"
         ]
       },
       "DigitalPresenceSection": {
-        "title": "Digital Presence",
-        "description": "We help you create a cohesive brand identity that resonates with your target audience. Our branding services include:",
+        "title": "الحضور الرقمي",
+        "description": "نساعدك على إنشاء هوية تجارية متكاملة تتماشى مع جمهورك المستهدف. تشمل خدماتنا في الحضور الرقمي:",
         "items": [
-          "Social Media Strategy",
-          "Content Creation",
-          "Analytics and Reporting"
+          "استراتيجية وسائل التواصل الاجتماعي",
+          "إنشاء المحتوى",
+          "التحليلات والتقارير"
         ]
       }
     }
@@ -252,243 +254,247 @@
   "Portfolio": {
     "buildingBrandsAndSoftwareEngineering": {
       "Meta": {
-        "title": "Building Brands & Digital Presence - The Connector",
-        "description": "We help businesses craft strong digital identities through UI/UX design, web development, and branding solutions that drive engagement and growth."
+        "title": "بناء العلامات التجارية والحضور الرقمي - ذا كونيكتور",
+        "description": "نساعد الشركات على صياغة هويات رقمية قوية من خلال تصميم واجهات وتجارب المستخدم (UI/UX)، وتطوير الويب، وحلول العلامات التجارية التي تعزز التفاعل والنمو."
       },
-      "title": "Building Brands & Digital Presence",
-      "description": "lorem",
+      "title": "بناء العلامات التجارية والحضور الرقمي",
+      "description": "لوريم",
       "items": {
         "venttat": {
           "title": "Venttat",
           "Meta": {
-            "title": "Venttat - Building Brands & Digital Presence",
-            "description": "Events and resources booking system."
+            "title": "Venttat - بناء العلامات التجارية والحضور الرقمي",
+            "description": "نظام لحجز الفعاليات والموارد."
           },
-          "description": "A comprehensive platform for booking events and managing resources, designed to streamline scheduling and improve user experience.",
+          "description": "منصة شاملة لحجز الفعاليات وإدارة الموارد، مصممة لتبسيط الجدولة وتحسين تجربة المستخدم.",
           "tags": [
-            "UI/UX Design",
-            "Web Development",
-            "Systems Development"
+            "تصميم UI/UX",
+            "تطوير الويب",
+            "تطوير الأنظمة"
           ],
           "body": {
             "What": [
-              "Venttat is a web-based platform that allows users to browse, book, and manage events and resources seamlessly.",
-              "It offers an intuitive interface for both administrators and users to track bookings, availability, and payments.",
-              "The system integrates calendar management, notifications, and reporting tools to simplify event organization."
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة...",
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة...",
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة...",
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة..."
             ],
             "Why": [
-              "Organizations and individuals often struggle with managing multiple events and resources efficiently.",
-              "Manual tracking and fragmented tools can lead to double bookings and miscommunication.",
-              "Venttat centralizes the booking process, reduces administrative overhead, and enhances user satisfaction."
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة...",
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة...",
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة...",
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة..."
             ],
             "How": [
-              "Users can search for available events and resources using filters like date, location, or category.",
-              "Administrators can set availability, approve bookings, and generate reports on usage and engagement.",
-              "The system leverages secure payment gateways, automated reminders, and a responsive design for all devices."
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة...",
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة...",
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة...",
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة...",
+              "لوريم إيبسوم نص تجريبي يستخدم في الطباعة..."
             ]
           }
         },
         "amoramor": {
           "title": "Amoramor",
           "Meta": {
-            "title": "Amoramor - Building Brands & Digital Presence",
-            "description": "Events and resources booking system."
+            "title": "Amoramor - بناء العلامات التجارية والحضور الرقمي",
+            "description": "نظام لحجز الفعاليات والموارد."
           },
-          "description": "A comprehensive platform for booking events and managing resources, designed to streamline scheduling and improve user experience.",
+          "description": "منصة شاملة لحجز الفعاليات وإدارة الموارد، مصممة لتبسيط الجدولة وتحسين تجربة المستخدم.",
           "tags": [
-            "UI/UX Design",
-            "Web Development",
-            "Systems Development"
+            "تصميم UI/UX",
+            "تطوير الويب",
+            "تطوير الأنظمة"
           ],
           "body": {
             "What": [
-              "Venttat is a web-based platform that allows users to browse, book, and manage events and resources seamlessly.",
-              "It offers an intuitive interface for both administrators and users to track bookings, availability, and payments.",
-              "The system integrates calendar management, notifications, and reporting tools to simplify event organization."
+              "لوريم إيبسوم نص تجريبي...",
+              "لوريم إيبسوم نص تجريبي...",
+              "لوريم إيبسوم نص تجريبي..."
             ],
             "Why": [
-              "Organizations and individuals often struggle with managing multiple events and resources efficiently.",
-              "Manual tracking and fragmented tools can lead to double bookings and miscommunication.",
-              "Venttat centralizes the booking process, reduces administrative overhead, and enhances user satisfaction."
+              "لوريم إيبسوم نص تجريبي...",
+              "لوريم إيبسوم نص تجريبي...",
+              "لوريم إيبسوم نص تجريبي..."
             ],
             "How": [
-              "Users can search for available events and resources using filters like date, location, or category.",
-              "Administrators can set availability, approve bookings, and generate reports on usage and engagement.",
-              "The system leverages secure payment gateways, automated reminders, and a responsive design for all devices."
+              "لوريم إيبسوم نص تجريبي...",
+              "لوريم إيبسوم نص تجريبي...",
+              "لوريم إيبسوم نص تجريبي..."
             ]
           }
         },
         "mukammel": {
           "Meta": {
-            "title": "Mukammel - Building Brands & Digital Presence",
-            "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
+            "title": "Mukammel - بناء العلامات التجارية والحضور الرقمي",
+            "description": "مشروع تصميم واجهة وتجربة مستخدم وتطوير ويب يركز على إنشاء حضور رقمي قوي وتجربة علامة تجارية جذابة."
           },
           "title": "Mukammel",
-          "description": "lorem",
+          "description": "منصة شاملة لحجز الفعاليات وإدارة الموارد...",
           "tags": [
-            "UI/UX Design",
-            "Web Developmnet"
+            "تصميم UI/UX",
+            "تطوير الويب"
           ],
           "body": {
             "What": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم إيبسوم...",
+              "لوريم إيبسوم...",
+              "لوريم إيبسوم..."
             ],
             "Why": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم إيبسوم...",
+              "لوريم إيبسوم...",
+              "لوريم إيبسوم..."
             ],
             "How": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم إيبسوم...",
+              "لوريم إيبسوم...",
+              "لوريم إيبسوم..."
             ]
           }
         },
         "podmedianetwork": {
           "Meta": {
-            "title": "Mukammel - Building Brands & Digital Presence",
-            "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
+            "title": "PodMedia Network - بناء العلامات التجارية والحضور الرقمي",
+            "description": "مشروع تصميم واجهة وتجربة مستخدم وتطوير ويب يركز على إنشاء حضور رقمي قوي وتجربة علامة تجارية جذابة."
           },
-          "title": "Mukammel",
-          "description": "lorem",
+          "title": "PodMedia Network",
+          "description": "منصة شاملة لحجز الفعاليات وإدارة الموارد...",
           "tags": [
-            "UI/UX Design",
-            "Web Developmnet"
+            "تصميم UI/UX",
+            "تطوير الويب"
           ],
           "body": {
             "What": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم...",
+              "لوريم...",
+              "لوريم..."
             ],
             "Why": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم...",
+              "لوريم...",
+              "لوريم..."
             ],
             "How": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم...",
+              "لوريم...",
+              "لوريم..."
             ]
           }
         },
         "podevents": {
           "Meta": {
-            "title": "Mukammel - Building Brands & Digital Presence",
-            "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
+            "title": "Pod Events - بناء العلامات التجارية والحضور الرقمي",
+            "description": "مشروع تصميم واجهة وتجربة مستخدم وتطوير ويب يركز على إنشاء حضور رقمي قوي وتجربة علامة تجارية جذابة."
           },
-          "title": "Mukammel",
-          "description": "lorem",
+          "title": "Pod Events",
+          "description": "منصة شاملة لحجز الفعاليات وإدارة الموارد...",
           "tags": [
-            "UI/UX Design",
-            "Web Developmnet"
+            "تصميم UI/UX",
+            "تطوير الويب"
           ],
           "body": {
             "What": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم...",
+              "لوريم...",
+              "لوريم..."
             ],
             "Why": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم...",
+              "لوريم...",
+              "لوريم..."
             ],
             "How": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم...",
+              "لوريم...",
+              "لوريم..."
             ]
           }
         },
         "dallal": {
           "Meta": {
-            "title": "Mukammel - Building Brands & Digital Presence",
-            "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
+            "title": "Dallal - بناء العلامات التجارية والحضور الرقمي",
+            "description": "مشروع تصميم واجهة وتجربة مستخدم وتطوير ويب يركز على إنشاء حضور رقمي قوي وتجربة علامة تجارية جذابة."
           },
-          "title": "Mukammel",
-          "description": "lorem",
+          "title": "الموقع الشخصي دلال",
+          "description": "منصة شاملة لحجز الفعاليات وإدارة الموارد...",
           "tags": [
-            "UI/UX Design",
-            "Web Developmnet"
+            "تصميم UI/UX",
+            "تطوير الويب"
           ],
           "body": {
             "What": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم...",
+              "لوريم...",
+              "لوريم..."
             ],
             "Why": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم...",
+              "لوريم...",
+              "لوريم..."
             ],
             "How": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم...",
+              "لوريم...",
+              "لوريم..."
             ]
           }
         },
         "dpartners": {
           "Meta": {
-            "title": "Mukammel - Building Brands & Digital Presence",
-            "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
+            "title": "D&Partners - بناء العلامات التجارية والحضور الرقمي",
+            "description": "مشروع تصميم واجهة وتجربة مستخدم وتطوير ويب يركز على إنشاء حضور رقمي قوي وتجربة علامة تجارية جذابة."
           },
-          "title": "Mukammel",
-          "description": "lorem",
+          "title": "D&Partners",
+          "description": "منصة شاملة لحجز الفعاليات...",
           "tags": [
-            "UI/UX Design",
-            "Web Developmnet"
+            "تصميم UI/UX",
+            "تطوير الويب"
           ],
           "body": {
             "What": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم",
+              "لوريم",
+              "لوريم"
             ],
             "Why": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم",
+              "لوريم",
+              "لوريم"
             ],
             "How": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم",
+              "لوريم",
+              "لوريم"
             ]
           }
         },
         "scitecs": {
           "Meta": {
-            "title": "Mukammel - Building Brands & Digital Presence",
-            "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
+            "title": "Scitecs - بناء العلامات التجارية والحضور الرقمي",
+            "description": "مشروع تصميم واجهة وتجربة مستخدم وتطوير ويب يركز على إنشاء حضور رقمي قوي وتجربة علامة تجارية جذابة."
           },
-          "title": "Mukammel",
-          "description": "lorem",
+          "title": "Scitecs",
+          "description": "منصة شاملة لحجز الفعاليات وإدارة الموارد...",
           "tags": [
-            "UI/UX Design",
-            "Web Developmnet"
+            "تصميم UI/UX",
+            "تطوير الويب"
           ],
           "body": {
             "What": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم",
+              "لوريم",
+              "لوريم"
             ],
             "Why": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم",
+              "لوريم",
+              "لوريم"
             ],
             "How": [
-              "lorem",
-              "lorem",
-              "lorem"
+              "لوريم",
+              "لوريم",
+              "لوريم"
             ]
           }
         }
@@ -496,62 +502,62 @@
     },
     "staffAugmentationAndSoftLanding": {
       "Meta": {
-        "title": "Staff Augmentation & Soft Landing - The Connector",
-        "description": "Flexible, pre-vetted talent to scale your projects quickly and seamless market entry support to establish your business presence in new regions."
+        "title": "التوظيف المرن والهبوط السلس - ذا كونيكتور",
+        "description": "مواهب مرنة ومختارة مسبقاً لتوسيع مشاريعك بسرعة، ودعم دخول سلس للأسواق لتأسيس حضور أعمالك في مناطق جديدة."
       }
     }
   },
   "Footer": {
     "columns": [
       {
-        "title": "Building Brands & Software Engineering",
+        "title": "بناء العلامات التجارية وهندسة البرمجيات",
         "items": [
-          "Software Engineering Services",
-          "Building Brands Services",
-          "Portfolio"
+          "خدمات هندسة البرمجيات",
+          "خدمات بناء العلامات التجارية",
+          "معرض الأعمال"
         ]
       },
       {
-        "title": "Staff Augmentation & Soft Landing",
+        "title": "التوظيف المرن والهبوط السلس",
         "items": [
-          "Staff Augmentation Service",
-          "Soft Landing Service",
-          "Portfolio"
+          "خدمة التوظيف المرن",
+          "خدمة الهبوط السلس",
+          "معرض الأعمال"
         ]
       },
       {
-        "title": "Contact",
+        "title": "تواصل معنا",
         "items": [
-          "Contact us Page",
-          "Facebook",
-          "Linkedin"
+          "صفحة تواصل معنا",
+          "فيسبوك",
+          "لينكدإن"
         ]
       }
     ],
-    "copyright": "© 2025 The Connector. All rights reserved"
+    "copyright": "© 2025 The Connector. جميع الحقوق محفوظة"
   },
   "Nav": [
     {
-      "title": "Home"
+      "title": "الرئيسية"
     },
     {
-      "title": "Services",
+      "title": "الخدمات",
       "subitems": [
-        "building brands",
-        "software engineering",
-        "Staff Augmentation",
-        "soft landing"
+        "بناء العلامات التجارية",
+        "هندسة البرمجيات",
+        "التوظيف المرن",
+        "الهبوط السلس"
       ]
     },
     {
-      "title": "portfolio",
+      "title": "معرض الأعمال",
       "subitems": [
-        "building brands and software engineering",
-        "Staff Augmentation and soft landing"
+        "بناء العلامات التجارية وهندسة البرمجيات",
+        "التوظيف المرن والهبوط السلس"
       ]
     },
     {
-      "title": "Contact us"
+      "title": "تواصل معنا"
     }
   ]
 }
