@@ -10,7 +10,9 @@
   "Home": {
     "HeroSection": {
       "title": "Business Development as a Service",
-      "button": "Contact us!"
+      "description": "We help companies scale with flexible, pre-vetted talent and digital solutions.",
+      "button1": "Explore More",
+      "button2": "Contact us!"
     },
     "AboutSection": {
       "title": "About Us",
@@ -352,7 +354,7 @@
             "title": "PodMedia Network - Building Brands & Digital Presence",
             "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
           },
-          "title": "Mukammel",
+          "title": "PodMedia Network",
           "description": "lorem",
           "tags": [
             "UI/UX Design",
@@ -381,7 +383,7 @@
             "title": "Mukammel - Building Brands & Digital Presence",
             "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
           },
-          "title": "Mukammel",
+          "title": "Pod Events",
           "description": "lorem",
           "tags": [
             "UI/UX Design",
@@ -410,7 +412,7 @@
             "title": "Mukammel - Building Brands & Digital Presence",
             "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
           },
-          "title": "Mukammel",
+          "title": "Dallal Personal Website",
           "description": "lorem",
           "tags": [
             "UI/UX Design",
@@ -439,7 +441,7 @@
             "title": "Mukammel - Building Brands & Digital Presence",
             "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
           },
-          "title": "Mukammel",
+          "title": "D&Partners",
           "description": "lorem",
           "tags": [
             "UI/UX Design",
@@ -468,7 +470,7 @@
             "title": "Mukammel - Building Brands & Digital Presence",
             "description": "UI/UX Design and Web Development project focused on creating a strong digital presence and engaging brand experience."
           },
-          "title": "Mukammel",
+          "title": "Scitects",
           "description": "lorem",
           "tags": [
             "UI/UX Design",

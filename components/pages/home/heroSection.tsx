@@ -4,23 +4,36 @@ import { Button } from '@/components/ui/button'
 import { useTranslations } from 'next-intl'
 import React from 'react'
 
-function HeroSection() {
+function Content() {
   const t = useTranslations("Home.HeroSection")
+  return (
+    <>
+      <Heading size="lg" >
+        {t("title")}
+      </Heading>
+      <Description size={'md'}>
+        {t("description")}
+      </Description>
+      <div className='mt-4'>
+        <Button className='mt-4 mr-12 cursor-pointer' variant={'outline'} size={"lg"}>
+          {t("button1")}
+        </Button>
+        <Button className='mt-4 cursor-pointer' size={"lg"}>
+          {t("button2")}
+        </Button>
+      </div>
+    </>
+  )
+}
+
+function HeroSection() {
   const contentClassName = "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center"
   return (
     <div className="relative h-screen w-full">
       {/* left half */}
       <div className="w-full h-full bg-primary overflow-hidden">
         <div className={`${contentClassName} text-secondary`}>
-          <Heading size="lg" >
-            {t("title")}
-          </Heading>
-          <Description size={'md'}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem, sit rem mollitia qui quos corporis odit numquam nam earum sapiente rerum obcaecati
-          </Description>
-          <Button className='mt-4' variant={'outline'} size={"lg"}>
-            {t("button")}
-          </Button>
+          <Content />
         </div>
       </div>
 
@@ -30,17 +43,7 @@ function HeroSection() {
       >
         <div className="absolute inset-0">
           <div className={`${contentClassName} text-primary`}>
-            <Heading
-              size="lg"
-            >
-              {t("title")}
-            </Heading>
-            <Description size={'md'}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quidem, sit rem mollitia qui quos corporis odit numquam nam earum sapiente rerum obcaecati
-            </Description>
-            <Button className='mt-4' size={"lg"}>
-              {t("button")}
-            </Button>
+            <Content />
           </div>
         </div>
       </div>

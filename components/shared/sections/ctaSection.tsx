@@ -11,7 +11,7 @@ function CtaSection() {
         Contact Us
       </Heading>
       <div className="w-full flex justify-center items-center mt-8">
-        <Link href={'/contact'}>
+        <Link href={'/contact'} className='cursor-pointer'>
           <Button size={'lg'}>
             Contact Us!
           </Button>
