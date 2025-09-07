@@ -33,7 +33,7 @@ function Content({ side }: ContentProps) {
       <div className="relative mt-8 w-full h-16">
         {/* Left button */}
         <Button
-          className="absolute left-10 md:left-20 lg:left-40 top-0 cursor-pointer flex"
+          className="absolute left-0 right-50 md:right-90 md:left-0 lg:right-100 top-0 cursor-pointer flex"
           variant="outline"
           size="lg"
           onClick={handleScroll}
@@ -46,7 +46,8 @@ function Content({ side }: ContentProps) {
 
         {/* Right button */}
         <Button
-          className="absolute right-10 md:right-20 lg:right-40 top-0 cursor-pointer"
+
+          className="absolute right-0 left-50 md:left-90 md:right-0 lg:left-100 top-0 cursor-pointer flex"
           size="lg"
         >
           {t("button2")}
