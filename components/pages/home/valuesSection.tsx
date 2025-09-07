@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Section from '@/components/shared/layout/section'
-import { ChartColumnIncreasing, HandFist, Lightbulb, Repeat, SpeakerIcon, UsersRound } from 'lucide-react'
+import { ChartColumnIncreasing, HandFist, Lightbulb, Repeat, UsersRound } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardAction, CardContent, CardHeader } from '@/components/ui/card'
 import Heading from '@/components/shared/typography/heading'

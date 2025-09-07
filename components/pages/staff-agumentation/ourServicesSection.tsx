@@ -1,8 +1,7 @@
 import Section from '@/components/shared/layout/section'
 import Heading from '@/components/shared/typography/heading'
 import React from 'react'
-import { Card, CardAction, CardContent, CardHeader } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
+import { Card, CardContent } from '@/components/ui/card'
 import { useTranslations } from 'next-intl'
 import { Users, Layers, Command, SpeakerIcon } from 'lucide-react' // example icons
 

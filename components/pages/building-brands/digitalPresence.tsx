@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl'
 import React from 'react'
 
 // Lucide icons chosen to match items
-import { Share2, FileText, BarChart3, Globe } from 'lucide-react'
+import { Share2, FileText, BarChart3 } from 'lucide-react'
 
 function DigitalPresence() {
   const t = useTranslations("Services.BuildingBrands.DigitalPresenceSection")

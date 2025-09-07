@@ -7,7 +7,7 @@ import React from 'react'
 
 function BrandingSection() {
   const t = useTranslations("Services.BuildingBrands.brandingSection")
-  const services = t.raw("items") as String[]
+  const services = t.raw("items") as string[]
   const icons = [Hexagon, BookCheck, Fingerprint]
   return (
     <Section type={'outer'}>

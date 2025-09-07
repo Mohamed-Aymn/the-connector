@@ -8,7 +8,6 @@ import { Toaster } from "sonner";
 import Nav from "@/components/shared/layout/nav";
 import Whatsapp from "@/components/shared/layout/whatsapp";
 import Footer from "@/components/shared/layout/footer";
-import CustomCursor from "@/components/shared/lib/customCursor";
 import { CursorProvider } from "@/context/cursorContext";
 import { generateMetadataAbstraction } from "@/lib/metaUtils";
 
