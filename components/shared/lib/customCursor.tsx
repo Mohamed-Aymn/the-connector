@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react"
 import { motion } from "framer-motion"
+import CircularText from "@/components/CircularText"
 
 type CursorType = "default" | "type1" | "type2"
 
@@ -24,8 +25,8 @@ export default function CustomCursor({ cursorType }: { cursorType: CursorType })
     <motion.div
       className={`
         fixed pointer-events-none z-[9999] rounded-full
-        ${cursorType === "type1" ? "w-8 h-8 bg-secondary opacity-70" : ""}
-        ${cursorType === "type2" ? "w-8 h-8 border-2 border-primary" : ""}
+        ${cursorType === "type1" ? "w-50 h-50 bg-secondary" : ""}
+        ${cursorType === "type2" ? "w-50 h-50 bg-primary" : ""}
       `}
       initial={{
         x: position.x - 16,
@@ -40,8 +41,18 @@ export default function CustomCursor({ cursorType }: { cursorType: CursorType })
       transition={{
         x: { type: "spring", stiffness: 500, damping: 28 },
         y: { type: "spring", stiffness: 500, damping: 28 },
-        scale: { duration: 0.4, ease: "easeOut" },
+        scale: { duration: 1, ease: "easeOut" },
       }}
-    />
+    >
+      <CircularText
+        text={
+          cursorType === "type1" ? "Building Brands * Software Engineering * " : "Staff Augmentation * Soft Landing * "
+        }
+        spinDuration={20}
+        className={`
+          ${cursorType === "type1" ? "text-primary" : "text-secondary"}
+        `}
+      />
+    </motion.div>
   )
 }

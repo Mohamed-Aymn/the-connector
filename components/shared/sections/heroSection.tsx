@@ -1,6 +1,9 @@
+"use client"
+
 import React from 'react'
 import Heading from '../typography/heading';
 import Description from '../typography/description';
+import { useCursor } from '@/context/cursorContext';
 
 interface HeroProps {
   title: string
@@ -10,6 +13,7 @@ interface HeroProps {
 
 function Hero({ title, description, mood }: HeroProps) {
   const contentClassName = "absolute top-1/2 left-[43%] -translate-x-1/2 -translate-y-1/2 text-left"
+  const { setCursorType } = useCursor()
   return (
     <div className="relative h-screen w-full">
       {/* left half */}
@@ -36,6 +40,8 @@ function Hero({ title, description, mood }: HeroProps) {
 
       {/* right half */}
       <div
+        onMouseEnter={() => setCursorType(mood === "service2" ? "type1" : "type2")}
+        onMouseLeave={() => setCursorType("default")}
         className={`absolute z-20 inset-0 [clip-path:polygon(30%_0,100%_0,100%_100%,30%_100%)] overflow-hidden
           ${mood === "shared" ?
             "bg-secondary" :
