@@ -4,24 +4,51 @@ import Description from '@/components/shared/typography/description'
 import Heading from '@/components/shared/typography/heading'
 import { Button } from '@/components/ui/button'
 import { useCursor } from '@/context/cursorContext'
+import { MoveDownIcon } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import React from 'react'
 
-function Content() {
+interface ContentProps {
+  side: "left" | "right"
+}
+
+function Content({ side }: ContentProps) {
   const t = useTranslations("Home.HeroSection")
+  const handleScroll = () => {
+    const section = document.getElementById("about")
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" })
+    }
+  }
   return (
     <>
-      <Heading size="lg" >
+      <Heading size="lg">
         {t("title")}
       </Heading>
-      <Description size={'md'}>
+      <Description size="md" className={side === "left" ? "text-secondary" : "text-primary"}>
         {t("description")}
       </Description>
-      <div className='mt-4'>
-        <Button className='mt-4 mr-12 cursor-pointer' variant={'outline'} size={"lg"}>
-          {t("button1")}
+
+      {/* container for buttons */}
+      <div className="relative mt-8 w-full h-16">
+        {/* Left button */}
+        <Button
+          className="absolute left-10 md:left-20 lg:left-40 top-0 cursor-pointer flex"
+          variant="outline"
+          size="lg"
+          onClick={handleScroll}
+        >
+          <span>
+            {t("button1")}
+          </span>
+          <MoveDownIcon className='animate-bounce mt-1' />
         </Button>
-        <Button className='mt-4 cursor-pointer' size={"lg"}>
+
+        {/* Right button */}
+        <Button
+          className="absolute right-10 md:right-20 lg:right-40 top-0 cursor-pointer"
+          size="lg"
+        >
           {t("button2")}
         </Button>
       </div>
@@ -40,8 +67,8 @@ function HeroSection() {
         onMouseEnter={() => setCursorType("type1")}
         onMouseLeave={() => setCursorType("default")}
       >
-        <div className={`${contentClassName} text-secondary`}>
-          <Content />
+        <div className={`${contentClassName} text-secondary max-w-[720px]`}>
+          <Content side='left' />
         </div>
       </div>
 
@@ -52,8 +79,8 @@ function HeroSection() {
         onMouseLeave={() => setCursorType("default")}
       >
         <div className="absolute inset-0">
-          <div className={`${contentClassName} text-primary`}>
-            <Content />
+          <div className={`${contentClassName} text-primary max-w-[720px]`}>
+            <Content side='right' />
           </div>
         </div>
       </div>

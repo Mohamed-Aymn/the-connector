@@ -9,7 +9,7 @@ function AboutSection() {
   const t = useTranslations("Home.AboutSection")
   return (
     <Section type="outer">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto" id="about">
         <Heading
           level={2}
           size="md"
