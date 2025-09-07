@@ -1,4 +1,5 @@
 import Section from '@/components/shared/layout/section'
+import Description from '@/components/shared/typography/description'
 import Heading from '@/components/shared/typography/heading'
 import { Button } from '@/components/ui/button'
 import { Card, CardAction, CardContent, CardHeader } from '@/components/ui/card'
@@ -16,14 +17,15 @@ function ServicesSection() {
   services[1].href = "/services/soft-landing"
   services[2].type = 1
   services[2].href = "/services/building-brands"
-
+  services[3].type = 1
+  services[3].href = "/services/software-engineering"
   return (
     <Section type="outer">
       <Heading level={2} className="text-primary mb-8" size="md">
         {t("title")}
       </Heading>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {services.map((service, idx) => (
           <Card key={idx}
             className={`
@@ -46,8 +48,12 @@ function ServicesSection() {
                 </Button>
               </CardAction>
             </CardHeader>
-            <CardContent className="text-muted-foreground text-sm leading-relaxed">
-              {service.description}
+            <CardContent className="leading-relaxed">
+              <Description size={'md'} className={`
+              ${service.type === 1 ? "hover:text-secondary" : ""}
+              `}>
+                {service.description}
+              </Description>
             </CardContent>
           </Card>
         ))}
