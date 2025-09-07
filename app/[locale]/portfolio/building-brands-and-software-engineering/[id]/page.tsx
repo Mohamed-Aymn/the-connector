@@ -6,6 +6,8 @@ import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import React from 'react';
 import Image from "next/image"
+import Description from '@/components/shared/typography/description';
+import CtaSection from '@/components/shared/sections/ctaSection';
 
 interface PageProps { params: Promise<{ id: string }> }
 
@@ -15,14 +17,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 const Urls = {
-  venttat: "https://venttat.com/",
-  amoramor: "https://venttat.com/",
-  mukammel: "https://venttat.com/",
-  podmedianetwork: "https://venttat.com/",
-  podevents: "https://venttat.com/",
-  dallal: "https://venttat.com/",
-  dpartners: "https://venttat.com/",
-  scitecs: "https://venttat.com/",
+  venttat: "https://venttat.sa/",
+  amoramor: "https://venttat.sa/",
+  mukammel: "https://venttat.sa/",
+  podmedianetwork: "https://venttat.sa/",
+  podevents: "https://venttat.sa/",
+  dallal: "https://venttat.sa/",
+  dpartners: "https://venttat.sa/",
+  scitecs: "https://venttat.sa/",
 }
 
 export default async function Page({ params }: PageProps) {
@@ -64,6 +66,42 @@ export default async function Page({ params }: PageProps) {
           </div>
         </div>
       </Section>
+
+      {/* content */}
+      <Section type="outer">
+        <div className="flex flex-col gap-24">
+          {Object.entries(t.raw("body") as Record<string, string[]>).map(
+            ([sectionTitle, paragraphs]) => (
+              <div
+                key={sectionTitle}
+                id={sectionTitle.toLowerCase()}
+                className="flex gap-12"
+              >
+                {/* Content column */}
+                <div className="flex-1 space-y-4">
+                  {paragraphs.map((p, i) => (
+                    <Description
+                      key={i}
+                      className="text-base leading-relaxed text-foreground"
+                      size="md"
+                    >
+                      {p}
+                    </Description>
+                  ))}
+                </div>
+
+                {/* Sticky rotated heading */}
+                <div className="relative w-12">
+                  <div className="sticky top-32 rotate-90 origin-right text-6xl font-semibold text-muted-foreground opacity-35">
+                    {sectionTitle}
+                  </div>
+                </div>
+              </div>
+            )
+          )}
+        </div>
+      </Section>
+      <CtaSection />
     </>
   );
 }
